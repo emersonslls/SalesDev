@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     cursor: url(../../Assets/VectorCursor.png), pointer;
+    scroll-behavior: smooth;
 }
 
 /* <--- CORES E FONTE ---> */

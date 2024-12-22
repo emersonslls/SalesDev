@@ -20,7 +20,7 @@ import VectorButton from '../Assets/Icons/Vector.svg'; /* Vector do botão do cu
 /* <---- MOCKUPS ----> */
 import MockupMyService from '../Assets/Mockups/MyService.png'; /* My Service */
 import MockupCocaCola from '../Assets/Mockups/CocaCola.png'; /* Coca-Cola */
-import MockupAlphaDevs from '../Assets/Mockups/AlphaDevsManutencao.png'; /* AlphaDev's em Manutenção */
+import MockupAlphaDevs from '../Assets/Mockups/AlphaDevs.png'; /* AlphaDev's */
 import MockupLinksPage from '../Assets/Mockups/LinksPage.png'; /* Links Page */
 /* <---- MINHA FOTO ----> */
 import Foto from '../Assets/Logo&Foto/Foto.png'; /* Minha foto */
@@ -150,7 +150,7 @@ function Home() {
               <h2>Landing page, responsiva.</h2>
             </div>
             <div className={`${styles.Btns} ${stylesrespomsive.Btns}`}>
-              <a href="#" target="_blank">
+              <a href="https://alphaadevs.vercel.app" target="_blank">
                 <button className={`${styles.BtnAcess} ${stylesrespomsive.BtnAcess}`}>
                   Acesse o site
                 </button>
