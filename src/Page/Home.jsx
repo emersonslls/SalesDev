@@ -125,7 +125,7 @@ function Home() {
               <h2>Landing page, responsiva.</h2>
             </div>
             <div className={`${styles.Btns} ${stylesrespomsive.Btns}`}>
-              <a href="https://mysservice.vercel.app" target="_blank">
+              <a href="https://github.com/emersonslls/Coca-Cola" target="_blank">
                 <button className={`${styles.BtnAcess} ${stylesrespomsive.BtnAcess}`}>
                   Acesse o Repositório
                 </button>
@@ -150,7 +150,7 @@ function Home() {
               <h2>Landing page, responsiva.</h2>
             </div>
             <div className={`${styles.Btns} ${stylesrespomsive.Btns}`}>
-              <a href="https://mysservice.vercel.app" target="_blank">
+              <a href="#" target="_blank">
                 <button className={`${styles.BtnAcess} ${stylesrespomsive.BtnAcess}`}>
                   Acesse o site
                 </button>
@@ -175,7 +175,7 @@ function Home() {
               <h2>Landing page, responsiva.</h2>
             </div>
             <div className={`${styles.Btns} ${stylesrespomsive.Btns}`}>
-              <a href="https://mysservice.vercel.app" target="_blank">
+              <a href="https://emersinsalesdev.vercel.app" target="_blank">
                 <button className={`${styles.BtnAcess} ${stylesrespomsive.BtnAcess}`}>
                   Acesse o site
                 </button>
