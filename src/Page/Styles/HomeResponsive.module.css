@@ -1,0 +1,1850 @@
+/* <---- CSS RESPONSIVO ----> */
+
+/* <---- HOME ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    .Home {
+        height: 736px;
+    }
+
+    .MyName {
+        width: 326px;
+        height: 155px;
+        left: calc(50% - 326px/2);
+        top: 230px;
+
+        & h1 {
+            top: 0;
+            width: 326px;
+            height: 60px;
+
+            font-size: 40px;
+            line-height: 60px;
+        }
+
+        & h2 {
+            top: 50px;
+            width: 326px;
+            height: 110px;
+
+            font-size: 68px;
+            line-height: 55px;
+
+            display: block;
+        }
+    }
+
+    .OqSou {
+        position: absolute;
+        width: 360px;
+        height: 90px;
+        left: calc(50% - 360px/2);
+        top: 400px;
+
+        & h1 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .BtnSobreMim {
+        padding: 12px 28px;
+        gap: 11.85px;
+
+        width: 250px;
+        height: 50px;
+        left: calc(50% - 250px/2);
+        top: 530px;
+
+        border-radius: 35px;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Scroll {
+        width: 70px;
+        height: 70px;
+        left: calc(50% - 70px/2);
+        /* Metade do tamanho */
+        top: 620px;
+    }
+
+    @keyframes ScrollAnimation {
+
+        0%,
+        100% {
+            transform: translateY(0);
+            /* Posição inicial e final */
+        }
+
+        50% {
+            transform: translateY(3px);
+            /* Move 5px para baixo */
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    .Home {
+        height: 711px;
+    }
+
+    .MyName {
+        width: 580px;
+        height: 150px;
+        left: calc(50% - 580px/2);
+        top: 250px;
+
+        & h1 {
+            top: 0;
+            width: 512px;
+            height: 96px;
+
+            font-size: 64px;
+            line-height: 96px;
+        }
+
+        & h2 {
+            top: 50px;
+            width: 560px;
+            height: 102px;
+
+            font-size: 68px;
+            line-height: 102px;
+        }
+    }
+
+    .OqSou {
+        position: absolute;
+        width: 580px;
+        height: 72px;
+        left: calc(50% - 580px/2);
+        top: 400px;
+
+        & h1 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .BtnSobreMim {
+        padding: 12px 28px;
+        gap: 11.85px;
+
+        width: 250px;
+        height: 50px;
+        left: calc(50% - 250px/2);
+        top: 500px;
+
+        border-radius: 35px;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Scroll {
+        width: 80px;
+        height: 80px;
+        left: calc(50% - 80px/2);
+        /* Metade do tamanho */
+        top: 580px;
+    }
+
+    @keyframes ScrollAnimation {
+
+        0%,
+        100% {
+            transform: translateY(0);
+            /* Posição inicial e final */
+        }
+
+        50% {
+            transform: translateY(5px);
+            /* Move 5px para baixo */
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    .Home {
+        height: 830px;
+    }
+
+    .MyName {
+        width: 982px;
+        height: 235px;
+        left: calc(50% - 982px/2);
+        top: 250px;
+
+        & h1 {
+            top: 0;
+            width: 896px;
+            height: 162px;
+
+            font-size: 108px;
+            line-height: 162px;
+        }
+
+        & h2 {
+            top: 108px;
+            width: 982px;
+            height: 126px;
+
+            font-size: 120px;
+            line-height: 180px;
+        }
+    }
+
+    .OqSou {
+        position: absolute;
+        width: 632px;
+        height: 72px;
+        left: calc(50% - 632px/2);
+        top: 505px;
+
+        & h1 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .BtnSobreMim {
+        padding: 12px 28px;
+        gap: 11.85px;
+
+        width: 250px;
+        height: 50px;
+        left: calc(50% - 250px/2);
+        top: 618px;
+
+        border-radius: 35px;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Scroll {
+        width: 80px;
+        height: 80px;
+        left: calc(50% - 80px/2);
+        /* Metade do tamanho */
+        top: 700px;
+    }
+
+    @keyframes ScrollAnimation {
+
+        0%,
+        100% {
+            transform: translateY(0);
+            /* Posição inicial e final */
+        }
+
+        50% {
+            transform: translateY(5px);
+            /* Move 5px para baixo */
+        }
+    }
+}
+
+/* <---- PORTFOLIO ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    .Portfolio {
+        height: 1855px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 119.76px;
+            height: 39.12px;
+            left: calc(50% - 119.76px/2);
+            top: 45px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Background {
+            width: 1794.5px;
+            height: 1248.24px;
+            left: calc(50% - 1794.5px/2 + 150px);
+            top: calc(50% - 1248.24px/2);
+        }
+
+        & .Eclipse1 {
+            width: 360px;
+            height: 90px;
+            left: calc(50% - 360px/2);
+            top: -45px;
+        }
+    }
+
+    .Portfolio::before {
+        height: 3px;
+    }
+
+    .BoasVindas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        position: absolute;
+        width: 346px;
+        height: 205px;
+        left: calc(50% - 346px/2);
+        top: 120px;
+
+        & h1 {
+            width: 299px;
+            height: 54px;
+
+            font-size: 36px;
+            line-height: 54px;
+
+            & span {
+                font-weight: 500;
+            }
+        }
+
+        & h2 {
+            top: 30px;
+            width: 346px;
+            height: 72px;
+
+            font-size: 48px;
+            line-height: 72px;
+
+            & span {
+                font-weight: 700;
+            }
+        }
+
+        & h3 {
+            top: 110px;
+            left: calc(50% - 346px/2);
+            width: 346px;
+            height: auto;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .Projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        width: 353px;
+        height: 1402px;
+        left: calc(50% - 353px/2);
+        top: 372px;
+    }
+
+    .MyService,
+    .CocaCola,
+    .AlphaDevs,
+    .LinksPage {
+        width: 353px;
+        height: 320px;
+
+        border-radius: 20px;
+
+        & img {
+            width: 296.92px;
+            height: 180.36px;
+            left: calc(50% - 296.92px/2);
+            top: 20px;
+        }
+
+        & .Informacoes {
+            width: 220px;
+            height: 50px;
+            left: calc(50% - 220px/2);
+            top: 205px;
+
+            & h1 {
+                width: 182px;
+                height: 28px;
+                left: calc(50% - 182px/2);
+
+                font-size: 32px;
+                line-height: 28px;
+            }
+
+            & h2 {
+                width: 159px;
+                height: 18px;
+                left: calc(50% - 159px/2);
+                bottom: 0;
+
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        & .Btns {
+            padding: 0px;
+            gap: 5px;
+
+            width: 190px;
+            height: 28px;
+            left: calc(50% - 190px/2);
+            top: 268px;
+
+            & .BtnAcess {
+                padding: 4px 16px;
+                gap: 4;
+
+                width: 140px;
+                height: 28px;
+
+                border-radius: 10px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            & .OqUsei {
+                gap: 8.04px;
+
+                width: 53.23px;
+                height: 24.95px;
+            }
+        }
+    }
+
+    /* <---- BUTTON COCA-COLA ----> */
+    .CocaCola .Btns {
+        padding: 0px;
+        gap: 5px;
+
+        width: 250px;
+        height: 28px;
+        left: calc(50% - 250px/2);
+        top: 268px;
+
+        & .BtnAcess {
+            width: 200px;
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    .Portfolio {
+        height: 2271px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 119.76px;
+            height: 39.12px;
+            left: calc(50% - 119.76px/2);
+            top: 50px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Background {
+            width: 2481.26px;
+            height: 1816.34px;
+            left: calc(50% - 2481.26px/2);
+            top: calc(50% - 1816.34px/2 - 132.33px);
+        }
+
+        & .Eclipse1 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -100px;
+        }
+    }
+
+    .Portfolio::before {
+        height: 4px;
+    }
+
+    .BoasVindas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        position: absolute;
+        width: 761px;
+        height: 220px;
+        left: calc(50% - 761px/2);
+        top: 138px;
+
+        & h1 {
+            font-size: 60px;
+            line-height: 90px;
+
+            & span {
+                font-weight: 500;
+            }
+        }
+
+        & h2 {
+            font-size: 80px;
+            line-height: 100px;
+
+            & span {
+                font-weight: 700;
+            }
+        }
+
+        & h3 {
+            top: 150px;
+            width: 580px;
+            height: 90px;
+            left: calc(50% - 580px/2);
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .Projetos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        gap: 50px 40px;
+
+        width: 580px;
+        height: 1750px;
+        left: calc(50% - 580px/2);
+        top: 414px;
+    }
+
+    .MyService,
+    .CocaCola,
+    .AlphaDevs,
+    .LinksPage {
+        width: 451.12px;
+        height: 400px;
+
+        & img {
+            position: absolute;
+            width: 379.45px;
+            height: 230.49px;
+            left: calc(50% - 379.45px/2);
+            top: 25px;
+        }
+
+        & .Informacoes {
+            width: 220px;
+            height: 60.17px;
+            left: calc(50% - 201px/2);
+            top: 260px;
+
+            & h1 {
+                font-size: 36px;
+                line-height: 35px;
+            }
+
+            & h2 {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        & .Btns {
+            padding: 0px;
+            gap: 6.39px;
+
+            position: absolute;
+            width: 207.02px;
+            height: 32px;
+            left: calc(50% - 207.02px/2);
+            top: 342.49px;
+
+            & .BtnAcess {
+                padding: 6.10182px 21.7008px;
+                gap: 7.23px;
+
+                width: 150px;
+                height: 32px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            & .OqUsei {
+                gap: 8.04px;
+
+                width: 53.23px;
+                height: 24.95px;
+            }
+        }
+    }
+
+    /* <---- BUTTON COCA-COLA ----> */
+    .CocaCola .Btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 6.39px;
+
+        position: absolute;
+        width: 270px;
+        height: 32px;
+        left: calc(50% - 270px/2);
+        top: 342.49px;
+
+        & .BtnAcess {
+            width: 220px;
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    .Portfolio {
+        height: 1310px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 119.76px;
+            height: 39.12px;
+            left: calc(50% - 119.76px/2);
+            top: 55px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Background {
+            width: 2481.26px;
+            height: 1816.34px;
+            left: calc(50% - 2481.26px/2);
+            top: calc(50% - 1816.34px/2);
+        }
+
+        & .Eclipse1 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -100px;
+        }
+    }
+
+    .Portfolio::before {
+        height: 4px;
+    }
+
+    .BoasVindas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        position: absolute;
+        width: 761px;
+        height: 220px;
+        left: calc(50% - 761px/2);
+        top: 138px;
+
+        & h1 {
+            font-size: 60px;
+            line-height: 90px;
+
+            & span {
+                font-weight: 500;
+            }
+        }
+
+        & h2 {
+            font-size: 80px;
+            line-height: 100px;
+
+            & span {
+                font-weight: 700;
+            }
+        }
+
+        & h3 {
+            top: 150px;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .Projetos {
+        padding: 0px;
+        gap: 50px 40px;
+
+        width: 943px;
+        height: 850px;
+        left: calc(50% - 943px/2);
+        top: 400px;
+    }
+
+    .MyService,
+    .CocaCola,
+    .AlphaDevs,
+    .LinksPage {
+        width: 451.12px;
+        height: 400px;
+
+        & img {
+            position: absolute;
+            width: 379.45px;
+            height: 230.49px;
+            left: calc(50% - 379.45px/2);
+            top: 25px;
+        }
+
+        & .Informacoes {
+            width: 220px;
+            height: 60.17px;
+            left: calc(50% - 201px/2);
+            top: 260px;
+
+            & h1 {
+                font-size: 36px;
+                line-height: 35px;
+            }
+
+            & h2 {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        & .Btns {
+            padding: 0px;
+            gap: 6.39px;
+
+            position: absolute;
+            width: 207.02px;
+            height: 32px;
+            left: calc(50% - 207.02px/2);
+            top: 342.49px;
+
+            & .BtnAcess {
+                padding: 6.10182px 21.7008px;
+                gap: 7.23px;
+
+                width: 150px;
+                height: 32px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            & .OqUsei {
+                gap: 8.04px;
+
+                width: 53.23px;
+                height: 24.95px;
+            }
+        }
+    }
+
+    /* <---- BUTTON COCA-COLA ----> */
+    .CocaCola .Btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 6.39px;
+
+        position: absolute;
+        width: 270px;
+        height: 32px;
+        left: calc(50% - 270px/2);
+        top: 342.49px;
+
+        & .BtnAcess {
+            width: 220px;
+        }
+    }
+}
+
+/* <---- SOBRE ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    .Sobre {
+        height: 1355px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 100px;
+            height: 39.12px;
+            left: calc(50% - 100px/2);
+            top: 45px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse2 {
+            width: 360px;
+            height: 90px;
+            left: calc(50% - 360px/2);
+            top: -45px;
+        }
+
+        & img {
+            width: 320px;
+            height: 374.94px;
+            left: calc(50% - 320px/2);
+            top: 295px;
+        }
+    }
+
+    .Sobre::before {
+        height: 3px;
+    }
+
+    .SaibaMaisSobre {
+        width: 355px;
+        height: 135px;
+        left: calc(50% - 355px/2);
+        top: 124px;
+
+        & h1 {
+            width: 355px;
+            height: 54px;
+
+            font-size: 36px;
+            line-height: 54px;
+
+            text-align: center;
+        }
+
+        & h2 {
+            top: 37px;
+            left: calc(50% - 314px/2);
+
+            width: 314px;
+            height: 96px;
+
+            font-size: 60px;
+            line-height: 50px;
+
+            align-items: center;
+            text-align: center;
+
+            display: block;
+        }
+    }
+
+    .InformationforMe {
+        gap: 25px;
+
+        width: 360px;
+        height: 579.85px;
+        left: calc(50% - 360px/2);
+        top: 706px;
+
+        & .SobreMim {
+            gap: 20px;
+
+            width: 360px;
+            height: 505px;
+
+            & h1 {
+                width: 360px;
+                height: 210px;
+
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+            & p {
+                gap: 35px;
+
+                width: 360px;
+                height: 275px;
+
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        & .btnCurriculo {
+            padding: 12px 2px;
+            gap: 8px;
+
+            width: 280px;
+            height: 44.27px;
+
+            font-size: 16px;
+            line-height: 15px;
+
+            & .VectorBtn {
+                width: 22.91px;
+                height: 22.91px;
+            }
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    .Sobre {
+        height: 1255px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 105px;
+            height: 39.12px;
+            left: calc(50% - 105px/2);
+            top: 50px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse2 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -90px;
+        }
+
+        & img {
+            width: 400px;
+            height: 468.67px;
+            left: calc(50% - 400px/2);
+            top: 730px;
+        }
+    }
+
+    .Sobre::before {
+        height: 4px;
+    }
+
+    .SaibaMaisSobre {
+        width: 544.75px;
+        height: 120px;
+        left: calc(50% - 544.75px/2);
+        top: 125px;
+
+        & h1 {
+            width: 508px;
+            height: 90px;
+
+            font-size: 52px;
+            line-height: 78px;
+        }
+
+        & h2 {
+            width: 554px;
+            height: 100px;
+
+            top: 40px;
+
+            font-size: 72px;
+            line-height: 108px;
+        }
+    }
+
+    .InformationforMe {
+        gap: 10px;
+
+        width: 530.98px;
+        height: 405px;
+        left: calc(50% - 530.98px/2);
+        top: 265px;
+
+        & .SobreMim {
+            gap: 10px;
+
+            width: 540px;
+            height: 350px;
+
+            & h1 {
+                width: 500px;
+                height: 150px;
+
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+            & p {
+                gap: 25px;
+
+                width: 500px;
+                height: 230px;
+
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        & .btnCurriculo {
+            padding: 12px 2px;
+            gap: 8px;
+
+            width: 280px;
+            height: 44.27px;
+
+            font-size: 16px;
+            line-height: 15px;
+
+            & .VectorBtn {
+                width: 22.91px;
+                height: 22.91px;
+            }
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    .Sobre {
+        height: 756px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 105px;
+            height: 39.12px;
+            left: calc(50% - 105px/2);
+            top: 55px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse2 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -90px;
+        }
+
+        & img {
+            width: 400px;
+            height: 468.67px;
+            left: 800px;
+            top: 160px;
+        }
+    }
+
+    .Sobre::before {
+        height: 4px;
+    }
+
+    .SaibaMaisSobre {
+        padding: 0px;
+
+        width: 554px;
+        height: 130px;
+        left: 150px;
+        top: 123px;
+
+        & h1 {
+            width: 508px;
+            height: 90px;
+
+            font-size: 52px;
+            line-height: 78px;
+        }
+
+        & h2 {
+            width: 554px;
+            height: 100px;
+
+            top: 40px;
+
+            font-size: 72px;
+            line-height: 108px;
+        }
+    }
+
+    .InformationforMe {
+        gap: 5px;
+
+        width: 540px;
+        height: 410px;
+        left: 150px;
+        top: 255px;
+
+        & .SobreMim {
+            gap: 10px;
+
+            width: 540px;
+            height: 350px;
+
+            & h1 {
+                width: 500px;
+                height: 150px;
+
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+            & p {
+                gap: 25px;
+
+                width: 500px;
+                height: 230px;
+
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        & .btnCurriculo {
+            padding: 12px 2px;
+            gap: 8px;
+
+            width: 280px;
+            height: 44.27px;
+
+            font-size: 16px;
+            line-height: 15px;
+
+            & .VectorBtn {
+                width: 22.91px;
+                height: 22.91px;
+            }
+        }
+    }
+}
+
+/* <---- SKILLS ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    .Habilidades {
+        height: 1030px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 135px;
+            height: 39.12px;
+            left: calc(50% - 135px/2);
+            top: 45px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse1 {
+            width: 360px;
+            height: 90px;
+            left: calc(50% - 360px/2);
+            top: -45px;
+        }
+    }
+
+    .Habilidades::before {
+        height: 3px;
+    }
+
+    .TittleSkills {
+        align-items: center;
+        text-align: center;
+        width: 340px;
+        height: 126px;
+        left: calc(50% - 340px/2);
+        top: 124px;
+
+        & h1 {
+            width: 333px;
+            height: 42px;
+
+            font-size: 28px;
+            line-height: 42px;
+
+            align-items: center;
+            text-align: center;
+        }
+
+        & h2 {
+            top: 40px;
+            left: 0;
+
+            width: 334px;
+            height: 88px;
+
+            font-size: 52px;
+            line-height: 44px;
+
+            display: block;
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    .InformationSkills {
+        width: 328px;
+        height: 275px;
+        left: calc(50% - 328px/2);
+        top: 273px;
+
+        & p {
+            width: 328px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .Skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0px;
+
+        gap: 45px 5px;
+
+        width: 360px;
+        height: 366.44px;
+        left: calc(50% - 360px/2);
+        top: 590px;
+
+        & .Html,
+        .Css,
+        .JavaScript,
+        .Reacts,
+        .Figma,
+        .MySql,
+        .Csharp,
+        .C {
+            gap: 1.88px;
+
+            height: 76.15px;
+
+            & img {
+                height: 56.27px;
+            }
+
+            & h1 {
+                width: 111px;
+                height: 36px;
+
+                font-size: 12px;
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    .Habilidades {
+        height: 925px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 135px;
+            height: 39.12px;
+            left: calc(50% - 135px/2);
+            top: 55px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse1 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -90px;
+        }
+    }
+
+    .Habilidades::before {
+        height: 4px;
+    }
+
+    .TittleSkills {
+        width: 580px;
+        height: 117px;
+        left: calc(50% - 580px/2);
+        top: 125px;
+
+        & h1 {
+            width: 574px;
+            height: 72px;
+
+            font-size: 48px;
+            line-height: 72px;
+            align-items: center;
+        }
+
+        & h2 {
+            top: 45px;
+
+            width: 586px;
+            height: 84px;
+
+            font-size: 56px;
+            line-height: 84px;
+        }
+    }
+
+    .InformationSkills {
+        gap: 35px;
+
+        width: 580px;
+        height: 275px;
+        left: calc(50% - 580px/2);
+        top: 255px;
+
+        & p {
+            width: 580px;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .Skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        gap: 21px 75px;
+
+        width: 580px;
+        height: 203.98px;
+        left: calc(50% - 580px/2);
+        top: 600px;
+
+        & .Html,
+        .Css,
+        .JavaScript,
+        .Reacts,
+        .Figma,
+        .MySql,
+        .Csharp,
+        .C {
+            padding: 0px;
+            gap: 2.37px;
+
+            width: auto;
+            height: 91.49px;
+
+            & img {
+                width: auto;
+                height: 71.12px;
+            }
+
+            & h1 {
+                width: auto;
+                height: 18px;
+
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    .Habilidades {
+        height: 840px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 135px;
+            height: 39.12px;
+            left: calc(50% - 135px/2);
+            top: 55px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse1 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -90px;
+        }
+    }
+
+    .Habilidades::before {
+        height: 4px;
+    }
+
+    .TittleSkills {
+        width: 754px;
+        height: 140px;
+        left: 120px;
+        top: 150px;
+
+        & h1 {
+            width: 620px;
+            height: 78px;
+
+            font-size: 52px;
+            line-height: 78px;
+
+        }
+
+        & h2 {
+            position: absolute;
+            top: 40px;
+
+            width: 840px;
+            height: 108px;
+
+            font-size: 72px;
+            line-height: 108px;
+        }
+    }
+
+    .InformationSkills {
+        left: 120px;
+        top: 290px;
+
+        & p {
+            width: 741px;
+            height: auto;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .Skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        gap: 25px 75px;
+
+        width: 777px;
+        height: 203.98px;
+        left: calc(50% - 777px/2);
+        top: 580px;
+
+        & .Html,
+        .Css,
+        .JavaScript,
+        .Reacts,
+        .Figma,
+        .MySql,
+        .Csharp,
+        .C {
+            padding: 0px;
+            gap: 2.37px;
+
+            width: auto;
+            height: 91.49px;
+
+            & img {
+                width: auto;
+                height: 71.12px;
+            }
+
+            & h1 {
+                width: auto;
+                height: 18px;
+
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+
+/* <---- CONTATOS ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    .Contatos {
+        height: 790px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 135px;
+            height: 39.12px;
+            left: calc(50% - 135px/2);
+            top: 45px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse1 {
+            width: 360px;
+            height: 90px;
+            left: calc(50% - 360px/2);
+            top: -45px;
+        }
+    }
+
+    .Contatos::before {
+        height: 3px;
+    }
+
+    .ContactMe {
+        width: 260px;
+        height: 95px;
+        left: calc(50% - 260px/2);
+        top: 124px;
+
+        & h1 {
+            width: 255px;
+            height: 42px;
+
+            font-size: 28px;
+            line-height: 42px;
+        }
+
+        & h2 {
+            top: 26px;
+            width: 219px;
+            height: 78px;
+
+            font-size: 52px;
+            line-height: 78px;
+        }
+    }
+
+    .SobreContato {
+        gap: 25px;
+
+        width: 360px;
+        height: 367px;
+        left: calc(50% - 360px/2);
+        top: 245px;
+
+        & h1 {
+            width: 360px;
+            height: 150px;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        & h2 {
+            width: 320px;
+            height: 192px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .Redes {
+        gap: 26px;
+
+        width: 203.87px;
+        height: 95px;
+        left: calc(50% - 203.87px/2);
+        top: 636px;
+
+        & h1 {
+            width: 115px;
+            height: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .IconsRedes {
+            gap: 26.94px;
+
+            width: 203.87px;
+            height: 50px;
+
+            & img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    .Contatos {
+        height: 820px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 135px;
+            height: 39.12px;
+            left: calc(50% - 135px/2);
+            top: 55px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse1 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -90px;
+        }
+    }
+
+    .Contatos::before {
+        height: 4px;
+    }
+
+    .ContactMe {
+        width: 475px;
+        height: 135px;
+        left: calc(50% - 475px/2);
+        top: 125px;
+
+        & h1 {
+            width: 470px;
+            height: 78px;
+
+            font-size: 52px;
+            line-height: 78px;
+        }
+
+        & h2 {
+            top: 40px;
+            position: absolute;
+            width: 302px;
+            height: 108px;
+
+            font-size: 72px;
+            line-height: 108px;
+        }
+    }
+
+    .SobreContato {
+        gap: 25px;
+
+        width: 580px;
+        height: 319px;
+        left: calc(50% - 580px/2);
+        top: 296px;
+
+        & h1 {
+            width: 550px;
+            height: 144px;
+        }
+
+        & h2 {
+            width: 566px;
+            height: 150px;
+        }
+    }
+
+    .Redes {
+        gap: 20px;
+
+        width: 203.87px;
+        height: 90px;
+        left: calc(50% - 203.87px/2);
+        top: 664px;
+
+        & h1 {
+            width: 115px;
+            height: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .IconsRedes {
+            gap: 26.94px;
+
+            width: 203.87px;
+            height: 50px;
+
+            & img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    .Contatos {
+        height: 800px;
+
+        & h6 {
+            padding: 8px 30px;
+            gap: 8.96px;
+
+            width: 135px;
+            height: 39.12px;
+            left: calc(50% - 135px/2);
+            top: 55px;
+
+            border: 3px solid;
+            border-radius: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .Eclipse1 {
+            width: 600px;
+            height: 150px;
+            left: calc(50% - 600px/2);
+            top: -90px;
+        }
+    }
+
+    .Contatos::before {
+        height: 5px;
+    }
+
+    .ContactMe {
+        width: 475px;
+        height: 135px;
+        left: calc(50% - 475px/2);
+        top: 130px;
+
+        & h1 {
+            width: 470px;
+            height: 78px;
+
+            font-size: 52px;
+            line-height: 78px;
+        }
+
+        & h2 {
+            top: 40px;
+            position: absolute;
+            width: 302px;
+            height: 108px;
+
+            font-size: 72px;
+            line-height: 108px;
+        }
+    }
+
+    .SobreContato {
+        gap: 25px;
+
+        position: absolute;
+        width: 660px;
+        height: 295px;
+        left: calc(50% - 660px/2);
+        top: 300px;
+
+        & h1 {
+            width: 660px;
+            height: 108px;
+        }
+
+        & h2 {
+            width: 586px;
+            height: 150px;
+        }
+    }
+
+    .Redes {
+        gap: 18x;
+
+        width: 203.87px;
+        height: 84px;
+        left: calc(50% - 203.87px/2);
+        top: 640px;
+
+        & h1 {
+            width: 115px;
+            height: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & .IconsRedes {
+            gap: 26.94px;
+
+            width: 203.87px;
+            height: 50px;
+
+            & img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

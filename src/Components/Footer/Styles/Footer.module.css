@@ -1,0 +1,202 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+    background: var(--Black);
+
+    overflow: hidden;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    /* Altura da "borda" */
+    background: linear-gradient(to right, #121315 0%, #066FD5 50%, #121315 100%);
+    z-index: 9;
+}
+
+.InformacoesFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 40px/2);
+
+    & h1 {
+        width: 260px;
+        height: 30px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+
+        /* SalesDev./Gray */
+        color: var(--Gray);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: -6px 0px;
+    }
+
+    & h2 {
+        width: 225px;
+        height: 24px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* SalesDev./Gray */
+        color: var(--Gray);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    & a {
+        cursor: pointer;
+        color: var(--Gray);
+    }
+
+    & a:hover {
+        color: var(--Blue);
+        font-weight: 600;
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    footer {
+        height: 80px;
+    }
+
+    footer::before {
+        height: 3px;
+    }
+
+    .InformacoesFooter {
+        gap: 5px;
+
+        width: 208px;
+        height: 35px;
+        left: calc(50% - 208px/2);
+        top: calc(50% - 35px/2);
+
+        & h1 {
+            width: 208px;
+            height: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        & h2 {
+            width: 165px;
+            height: 18px;
+
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    footer {
+        height: 90px;
+    }
+
+    footer::before {
+        height: 4px;
+    }
+
+    .InformacoesFooter {
+        gap: 3px;
+        width: 260px;
+        height: 48px;
+        left: calc(50% - 260px/2);
+        top: calc(50% - 48px/2);
+
+        & h1 {
+            width: 260px;
+            height: 30px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            margin: -6px 0px;
+        }
+
+        & h2 {
+            width: 220px;
+            height: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    footer {
+        height: 90px;
+    }
+
+    footer::before {
+        height: 4px;
+    }
+
+    .InformacoesFooter {
+        gap: 3px;
+        width: 260px;
+        height: 48px;
+        left: calc(50% - 260px/2);
+        top: calc(50% - 48px/2);
+
+        & h1 {
+            width: 260px;
+            height: 30px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            margin: -6px 0px;
+        }
+
+        & h2 {
+            width: 220px;
+            height: 24px;
+
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

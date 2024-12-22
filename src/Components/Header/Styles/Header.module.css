@@ -1,0 +1,383 @@
+header {
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 1440px;
+    height: 100px;
+    left: calc(50% - 1440px/2);
+    top: 50px;
+
+    background: rgba(15, 15, 17, 0.4);
+    border: 3px solid rgba(240, 237, 230, 0.1);
+    backdrop-filter: blur(2.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 35px;
+
+    z-index: 99;
+}
+
+.logo {
+    position: absolute;
+    width: 178.49px;
+    height: 41.4px;
+    left: 100px;
+    top: calc(50% - 41.4px/2);
+
+    cursor: pointer;
+}
+
+/* Estilo da Navbar para Desktop */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+
+    position: absolute;
+    width: 503px;
+    height: 30px;
+    right: 100px;
+    top: calc(50% - 30px/2);
+}
+
+nav li {
+    height: 100px;
+
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100px;
+    /* identical to box height */
+    text-align: center;
+
+    color: var(--White);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    cursor: pointer;
+}
+
+nav li:hover {
+    font-weight: 600;
+    /* Aumenta o peso da fonte */
+    border-bottom: 3px solid var(--Blue);
+    /* Altere para a cor desejada */
+}
+
+/* Botão hamburger - oculto no desktop */
+.hamburger {
+    display: none;
+    position: absolute;
+    height: 45px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: none;
+    position: absolute;
+    height: 27px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Redes {
+    display: none;
+    position: absolute;
+    background: none;
+    border: none;
+
+    & img {
+        position: absolute;
+        width: auto;
+        height: 25px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+@media only screen and (width >=320px) and (width <=430px)
+/* <---- CSS MOBILE ----> */
+    {
+    header {
+        width: 360px;
+        height: 80px;
+        left: calc(50% - 360px/2);
+        top: 50px;
+        border-radius: 30px;
+    }
+
+    .logo {
+        width: auto;
+        height: 25px;
+        left: 30px;
+        top: calc(50% - 25px/2);
+        z-index: 9;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: -3px;
+        right: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 396px;
+
+        background: rgba(21, 20, 20, 0.4);
+        border-width: 3px 3px 3px 3px;
+        border-style: solid;
+        border-color: rgba(240, 237, 230, 0.1);
+        border-radius: 30px 30px 50px 50px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 121px;
+        height: 190px;
+        left: calc(50% - 121px/2);
+        top: calc(50% - 190px/2);
+    }
+
+    nav li {
+        width: auto;
+        height: 30px;
+
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    nav li:hover {
+        border-bottom: 1.5px solid var(--Blue);
+    }
+
+    .navOpen {
+        display: flex;
+        /* Exibe o menu quando o hamburger for clicado */
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        height: 25px;
+        right: 30px;
+        top: calc(50% - 25px/2);
+    }
+
+    .menuIcon {
+        display: flex;
+        width: auto;
+        height: 25px;
+    }
+
+    .closeIcon {
+        display: flex;
+        position: absolute;
+        height: 27px;
+        right: 5px;
+        top: calc(50% - 27px/2);
+    }
+
+    .Redes {
+        display: flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;
+
+        position: absolute;
+        width: 170px;
+        height: 45px;
+        left: calc(50% - 170px/2);
+        top: 317px;
+
+        & img {
+            width: auto;
+            height: 45px;
+            position: relative;
+            top: 4px;
+            cursor: pointer;
+        }
+
+        & img:hover {
+            transform: scale(1.15);
+        }
+    }
+}
+
+@media only screen and (width >=768px) and (width <=834px)
+/* <---- CSS TABLET ----> */
+    {
+    header {
+        width: 580px;
+        height: 80px;
+        left: calc(50% - 580px/2);
+    }
+
+    .logo {
+        width: 129.34px;
+        height: 30px;
+        left: 70px;
+        top: calc(50% - 30px/2);
+
+        z-index: 9;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: -3px;
+        right: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 396px;
+
+        background: rgba(21, 20, 20, 0.4);
+        border-width: 3px 3px 3px 3px;
+        border-style: solid;
+        border-color: rgba(240, 237, 230, 0.1);
+        border-radius: 35px 35px 50px 50px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 121px;
+        height: 190px;
+        left: calc(50% - 121px/2);
+        top: calc(50% - 190px/2);
+    }
+
+    nav li {
+        width: auto;
+        height: 30px;
+
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    nav li:hover {
+        border-bottom: 1.5px solid var(--Blue);
+    }
+
+    .navOpen {
+        display: flex;
+        /* Exibe o menu quando o hamburger for clicado */
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        height: 25px;
+        right: 70px;
+        top: calc(50% - 25px/2);
+    }
+
+    .menuIcon {
+        display: flex;
+        width: auto;
+        height: 25px;
+    }
+
+    .closeIcon {
+        display: flex;
+        position: absolute;
+        height: 27px;
+        right: 5px;
+        top: calc(50% - 27px/2);
+    }
+
+    .Redes {
+        display: flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;
+
+        width: 170px;
+        height: 45px;
+        left: calc(50% - 170px/2);
+        top: 317px;
+
+        & img {
+            width: auto;
+            height: 45px;
+            position: relative;
+            top: 4px;
+            cursor: pointer;
+        }
+
+        & img:hover {
+            transform: scale(1.15);
+        }
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px)
+/* <---- CSS NOTEBOOK ----> */
+    {
+    header {
+        width: 980px;
+        left: calc(50% - 980px/2);
+
+        border-radius: 40px;
+    }
+
+    .logo {
+        width: 150.9px;
+        height: 35px;
+        left: 80px;
+        top: calc(50% - 35px/2);
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    nav ul {
+        padding: 0px;
+        gap: 22px;
+
+        width: 420px;
+        height: 24px;
+        right: 80px;
+        top: calc(50% - 24px/2);
+    }
+
+    nav li {
+        font-size: 16px;
+        line-height: 100px;
+    }
+}
