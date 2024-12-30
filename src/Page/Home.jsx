@@ -228,7 +228,7 @@ function Home() {
         <div className={`${styles.ContainerSkillsInformtion} ${stylesrespomsive.ContainerSkillsInformtion}`} data-aos="fade-right">
           <div className={`${styles.TittleSkills} ${stylesrespomsive.TittleSkills}`} data-aos="fade-right">
             <h1>Conheça<span>&nbsp;algumas das</span></h1>
-            <h2>minhas <span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
+            <h2>minhas<span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
           </div>
           <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`} data-aos="fade-right">
             <p>
