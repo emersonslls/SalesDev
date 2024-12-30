@@ -938,7 +938,7 @@
         flex-grow: 0;
 
         & h1 {
-            width: 700px;
+            width: 720px;
             height: 42px;
 
             font-family: var(--font-principal);
@@ -964,7 +964,7 @@
         }
 
         & h2 {
-            width: 837px;
+            width: 845px;
             height: 56px;
 
             font-family: var(--font-principal);
