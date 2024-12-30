@@ -1170,13 +1170,15 @@
     gap: 9px;
 
     position: absolute;
-    width: 540px;
+    width: 560px;
     height: 107px;
-    left: calc(50% - 540px/2);
+    left: calc(50% - 560px/2);
     top: 175px;
 
+    background-color: red;
+
     & h1 {
-        width: 540px;
+        width: 550px;
         height: 42px;
 
         font-family: var(--font-principal);
