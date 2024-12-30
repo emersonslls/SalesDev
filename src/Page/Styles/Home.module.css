@@ -1059,6 +1059,10 @@
         width: auto;
         height: 91.49px;
 
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+
         & img {
             width: auto;
             height: 71.12px;
@@ -1073,9 +1077,12 @@
             font-weight: 600;
             font-size: 12px;
             line-height: 18px;
-            text-align: center;
 
             color: var(--White);
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
         }
 
         & img:hover {
