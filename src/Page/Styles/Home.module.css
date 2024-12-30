@@ -1167,15 +1167,13 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: -5px;
+    gap: 9px;
 
     position: absolute;
     width: 560px;
     height: 107px;
     left: calc(50% - 560px/2);
     top: 175px;
-
-    background-color: red;
 
     & h1 {
         width: 550px;
