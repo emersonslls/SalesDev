@@ -922,6 +922,8 @@
     left: 339px;
     top: 175px;
 
+    background-color: yellow;
+
     & .TittleSkills {
         display: flex;
         flex-direction: column;
