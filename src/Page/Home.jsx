@@ -85,7 +85,7 @@ function Home() {
         <div className={`${styles.BoasVindas} ${stylesrespomsive.BoasVindas}`}>
           <h1 data-aos="fade-right">Boas-Vindas<span>&nbsp;ao</span></h1>
           <h2 data-aos="fade-right">meu <span className={styles.Azul}>&nbsp;portfólio</span><span className={styles.Laranja}>.</span></h2>
-          <h3 data-aos="fade-up">
+          <h3 data-aos="fade-up" className={`${styles.Description} ${stylesrespomsive.Description}`}>
             Boas-Vindas! Sou desenvolvedor front-end júnior com foco em UI/UX. Explore meus projetos e entre em contato para colaborações ou feedback!
           </h3>
         </div>
@@ -175,7 +175,7 @@ function Home() {
               <h2>Landing page, responsiva.</h2>
             </div>
             <div className={`${styles.Btns} ${stylesrespomsive.Btns}`}>
-              <a href="https://emersinsalesdev.vercel.app" target="_blank">
+              <a href="https://emersonsalesdev.vercel.app" target="_blank">
                 <button className={`${styles.BtnAcess} ${stylesrespomsive.BtnAcess}`}>
                   Acesse o site
                 </button>
@@ -196,44 +196,50 @@ function Home() {
       <section className={`${styles.Sobre} ${stylesrespomsive.Sobre}`} id="sobre" ref={sobre}>
         <div className={`${styles.Eclipse2} ${stylesrespomsive.Eclipse2}`} />
         <h6>Sobre</h6>
-        <div className={`${styles.SaibaMaisSobre} ${stylesrespomsive.SaibaMaisSobre}`} data-aos="fade-right">
-          <h1>Saiba mais<span>&nbsp;sobre o</span></h1>
-          <h2>Emerson <span className={styles.Azul}>&nbsp;Sales</span><span className={styles.Laranja}>.</span></h2>
-        </div>
-        <div className={`${styles.InformationforMe} ${stylesrespomsive.InformationforMe}`} data-aos="fade-right">
-          <div className={`${styles.SobreMim} ${stylesrespomsive.SobreMim}`}>
-            <h1>
-              Meu nome é Emerson Santos Sales, tenho 19 anos e sou ex-aluno da Etec, onde me formei em Desenvolvimento de Sistemas. Atualmente, curso Análise e Desenvolvimento de Sistemas na UNIP.
-            </h1>
-            <p>
-              Ao longo do meu curso, desenvolvi uma paixão pela área de front-end e design e estou em busca de oportunidades de trabalho para aplicar e aprimorar essas habilidades.
-            </p>
-            <p>
-              Estou entusiasmado em ingressar nesse campo dinâmico e criativo, pronto para contribuir com energia e dedicação para alcançar os objetivos da equipe e da empresa.
-            </p>
+        <div className={`${styles.ContainerSobreInformtion} ${stylesrespomsive.ContainerSobreInformtion}`} data-aos="fade-right">
+          <div className={`${styles.SaibaMaisSobre} ${stylesrespomsive.SaibaMaisSobre}`}>
+            <h1>Saiba mais<span>&nbsp;sobre o</span></h1>
+            <h2>Emerson <span className={styles.Azul}>&nbsp;Sales</span><span className={styles.Laranja}>.</span></h2>
           </div>
-          <button onClick={abrirCurriculo} className={`${styles.btnCurriculo} ${stylesrespomsive.btnCurriculo}`}>
-            Faça o Download do CV<img src={VectorButton} className={`${styles.VectorBtn} ${stylesrespomsive.VectorBtn}`} />
-          </button>
+          <div className={`${styles.InformationforMe} ${stylesrespomsive.InformationforMe}`}>
+            <div className={`${styles.SobreMim} ${stylesrespomsive.SobreMim}`}>
+              <h1>
+                Meu nome é Emerson Santos Sales, tenho 19 anos e sou ex-aluno da Etec, onde me formei em Desenvolvimento de Sistemas. Atualmente, curso Análise e Desenvolvimento de Sistemas na UNIP.
+              </h1>
+              <p>
+                Ao longo do meu curso, desenvolvi uma paixão pela área de front-end e design e estou em busca de oportunidades de trabalho para aplicar e aprimorar essas habilidades.
+              </p>
+              <p>
+                Estou entusiasmado em ingressar nesse campo dinâmico e criativo, pronto para contribuir com energia e dedicação para alcançar os objetivos da equipe e da empresa.
+              </p>
+            </div>
+            <button onClick={abrirCurriculo} className={`${styles.btnCurriculo} ${stylesrespomsive.btnCurriculo}`}>
+              Faça o Download do CV<img src={VectorButton} className={`${styles.VectorBtn} ${stylesrespomsive.VectorBtn}`} />
+            </button>
+          </div>
         </div>
+
         <img src={Foto} data-aos="fade-left" />
       </section>
       {/* -- HABILIDADES -- */}
       <section className={`${styles.Habilidades} ${stylesrespomsive.Habilidades}`} id="habilidades">
         <div className={`${styles.Eclipse1} ${stylesrespomsive.Eclipse1}`} />
         <h6>Habilidades</h6>
-        <div className={`${styles.TittleSkills} ${stylesrespomsive.TittleSkills}`} data-aos="fade-right">
-          <h1>Conheça<span>&nbsp;algumas das</span></h1>
-          <h2>minhas <span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
+        <div className={`${styles.ContainerSkillsInformtion} ${stylesrespomsive.ContainerSkillsInformtion}`} data-aos="fade-right">
+          <div className={`${styles.TittleSkills} ${stylesrespomsive.TittleSkills}`} data-aos="fade-right">
+            <h1>Conheça<span>&nbsp;algumas das</span></h1>
+            <h2>minhas <span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
+          </div>
+          <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`} data-aos="fade-right">
+            <p>
+              Tenho habilidades em várias tecnologias de desenvolvimento web, incluindo HTML5, CSS3 e JavaScript, além de frameworks como React.js, React Native e Node.js. Também possuo conhecimento na plataforma Figma.
+            </p>
+            <p>
+              Sou apaixonado pelo mundo do front-end e, embora não tenha experiência em back-end, conheço o básico de MySQL, Linguagem C, C# e APIs.
+            </p>
+          </div>
         </div>
-        <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`} data-aos="fade-right">
-          <p>
-            Tenho habilidades em várias tecnologias de desenvolvimento web, incluindo HTML5, CSS3 e JavaScript, além de frameworks como React.js, React Native e Node.js. Também possuo conhecimento na plataforma Figma.
-          </p>
-          <p>
-            Sou apaixonado pelo mundo do front-end e, embora não tenha experiência em back-end, conheço o básico de MySQL, Linguagem C, C# e APIs.
-          </p>
-        </div>
+
         <div className={`${styles.Skills} ${stylesrespomsive.Skills}`}>
           <div className={`${styles.Html} ${stylesrespomsive.Html}`}>
             <img src={IconHtml} />

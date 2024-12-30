@@ -14,9 +14,9 @@ footer::before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5px;
+    height: 3px;
     /* Altura da "borda" */
-    background: linear-gradient(to right, #121315 0%, #066FD5 50%, #121315 100%);
+    background: linear-gradient(to right, #12131500 5%, #066FD5 50%, #12131500 95%);
     z-index: 9;
 }
 
@@ -25,27 +25,27 @@ footer::before {
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    gap: 2px;
 
     position: absolute;
     width: 260px;
-    height: 40px;
+    height: 45px;
     left: calc(50% - 260px/2);
-    top: calc(50% - 40px/2);
+    top: calc(50% - 45px/2);
 
     & h1 {
         width: 260px;
-        height: 30px;
+        height: auto;
 
-        font-family: 'Poppins';
+        font-family: var(--font-principal);
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
-        /* identical to box height */
+
         display: flex;
         align-items: center;
 
-        /* SalesDev./Gray */
         color: var(--Gray);
 
         flex: none;
@@ -56,19 +56,17 @@ footer::before {
 
     & h2 {
         width: 225px;
-        height: 24px;
+        height: auto;
 
-        font-family: 'Poppins';
+        font-family: var(--font-principal);
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        /* identical to box height */
         display: flex;
         align-items: center;
         text-align: center;
 
-        /* SalesDev./Gray */
         color: var(--Gray);
 
         flex: none;

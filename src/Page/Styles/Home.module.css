@@ -68,53 +68,60 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 0px;
+    gap: 9px;
 
     position: absolute;
     width: 1014px;
-    height: 235px;
+    height: 175px;
     left: calc(50% - 1014px/2);
-    top: 275px;
+    top: 327px;
 
     & h1 {
-        position: absolute;
-        top: 0;
-        width: 896px;
-        height: 168px;
+        width: 910px;
+        height: 79px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 500;
         font-size: 112px;
         line-height: 168px;
-        /* identical to box height */
+
+        leading-trim: both;
+        text-edge: cap;
         display: flex;
         align-items: center;
         text-align: center;
 
-        /* SalesDev./White */
         color: var(--White);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
     }
 
     & h2 {
-        position: absolute;
-        top: 108px;
         width: 1014px;
-        height: 126px;
+        height: 87px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 500;
         font-size: 124px;
         line-height: 186px;
-        /* identical to box height */
+
+        leading-trim: both;
+        text-edge: cap;
         display: flex;
         align-items: center;
         text-align: center;
 
-        /* SalesDev./Blue */
         color: var(--Blue);
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
     }
 
     & span {
@@ -287,7 +294,7 @@
     width: 100%;
     height: 5px;
     /* Altura da "borda" */
-    background: linear-gradient(to right, #090A0D 0%, #066FD5 50%, #090A0D 100%);
+    background: linear-gradient(to right, #12131500 5%, #066FD5 50%, #12131500 95%);
     z-index: 9;
 }
 
@@ -296,31 +303,35 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    gap: -2px;
 
     position: absolute;
     width: 764px;
-    height: 215px;
+    height: 185px;
     left: calc(50% - 764px/2);
-    top: 150px;
+    top: 175px;
 
     & h1 {
-        position: absolute;
-        top: 0;
         width: 499px;
-        height: 90px;
+        height: 42px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 700;
         font-size: 60px;
         line-height: 90px;
-        /* identical to box height */
+
+        leading-trim: both;
+        text-edge: cap;
         display: flex;
         align-items: center;
         text-align: center;
 
-        /* SalesDev./White */
         color: var(--White);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
 
         & span {
             font-weight: 500;
@@ -328,40 +339,44 @@
     }
 
     & h2 {
-        position: absolute;
-        top: 45px;
         width: 576px;
-        height: 100px;
+        height: 56px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 500;
         font-size: 80px;
-        line-height: 100px;
-        /* identical to box height */
+        line-height: 120px;
+
+        leading-trim: both;
+        text-edge: cap;
         display: flex;
         align-items: center;
 
-        /* SalesDev./White */
         color: var(--White);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
 
         & span {
             font-weight: 700;
         }
     }
 
-    & h3 {
+    & .Description {
         position: absolute;
         width: 764px;
         height: 60px;
         left: calc(50% - 764px/2);
-        top: 155px;
+        top: 125px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
         line-height: 30px;
+
         display: flex;
         align-items: center;
         text-align: center;
@@ -384,7 +399,7 @@
     width: 1200px;
     height: 850px;
     left: calc(50% - 1200px/2);
-    top: 450px;
+    top: 440px;
 }
 
 .MyService,
@@ -626,172 +641,202 @@
     width: 100%;
     height: 5px;
     /* Altura da "borda" */
-    background: linear-gradient(to right, #F0EDE6 0%, #FF7229 50%, #F0EDE6 100%);
+    background: linear-gradient(to right, #f0ede600 5%, #FF7229 50%, #f0ede600 95%);
     z-index: 9;
 }
 
-.SaibaMaisSobre {
+.ContainerSobreInformtion {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
-    position: absolute;
-    width: 631px;
-    height: 140px;
-    left: 339px;
-    top: 150px;
-
-    & h1 {
-        width: 590px;
-        height: 90px;
-
-        font-family: var(--font-principal);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 60px;
-        line-height: 90px;
-        align-items: center;
-
-        /* SalesDev./Black */
-        color: var(--Black);
-
-        & span {
-            font-weight: 600;
-        }
-    }
-
-    & h2 {
-        width: auto;
-        height: 120px;
-
-        position: absolute;
-        top: 40px;
-
-        font-family: var(--font-principal);
-        font-style: normal;
-        font-weight: 500;
-        font-size: 80px;
-        line-height: 120px;
-        /* identical to box height */
-        display: flex;
-        align-items: center;
-        text-align: right;
-
-        /* SalesDev./Black */
-        color: var(--Black);
-
-        & span {
-            font-weight: 700;
-        }
-    }
-}
-
-.InformationforMe {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
+    gap: 14px;
 
     position: absolute;
     width: 752px;
-    height: 448px;
+    height: 553px;
     left: 339px;
-    top: 290px;
+    top: calc(50% - 553px/2 + 36.09px);
 
-    & .SobreMim {
+    & .SaibaMaisSobre {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
-        gap: 15px;
+        gap: 9px;
 
-        width: 752px;
-        height: 379px;
+        width: 631px;
+        height: 107px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
 
         & h1 {
-            width: 715px;
-            height: auto;
+            width: 585px;
+            height: 42px;
 
             font-family: var(--font-principal);
             font-style: normal;
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 36px;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 90px;
 
-            /* SalesDev./Black */
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+
             color: var(--Black);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 600;
+            }
         }
 
-        & p {
+        & h2 {
+            width: 616px;
+            height: 56px;
+
+            font-family: var(--font-principal);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 120px;
+
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+
+            color: var(--Black);
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    & .InformationforMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        width: 752px;
+        height: 432px;
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+        & .SobreMim {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             padding: 0px;
-            gap: 40px;
+            gap: 20px;
 
-            width: 620px;
-            height: auto;
+            width: 752px;
+            height: 364px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & h1 {
+                width: auto;
+                height: 144px;
+
+                font-family: var(--font-principal);
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+
+                color: var(--Black);
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            & p {
+                width: 620px;
+                height: auto;
+
+                font-family: var(--font-principal);
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+
+                color: var(--Gray);
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+
+        & .btnCurriculo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 20px;
+            gap: 10px;
+
+            width: 282px;
+            height: 50px;
+
+            background: var(--Blue);
+            border-radius: 24px;
+            border: none;
+
+            cursor: pointer;
 
             font-family: var(--font-principal);
             font-style: normal;
             font-weight: 600;
-            font-size: 20px;
-            line-height: 30px;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
 
-            /* SalesDev./Gray */
-            color: var(--Gray);
+            /* SalesDev./White */
+            color: var(--White);
+
+            & .VectorBtn {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 22.91px;
+                height: 22.91px;
+            }
         }
-    }
 
-    & .btnCurriculo {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 24px 20px;
-        gap: 10px;
-
-        width: 282px;
-        height: 50px;
-
-        /* SalesDev./Blue */
-        background: var(--Blue);
-        border-radius: 24px;
-        border: none;
-
-        cursor: pointer;
-
-        font-family: var(--font-principal);
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19px;
-        display: flex;
-        align-items: center;
-
-        /* SalesDev./White */
-        color: var(--White);
-
-        & .VectorBtn {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 22.91px;
-            height: 22.91px;
+        & .btnCurriculo:hover {
+            transform: scale(1.05);
+            /* Aumenta levemente o container */
+            box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
         }
-    }
 
-    & .btnCurriculo:hover {
-        transform: scale(1.05);
-        /* Aumenta levemente o container */
-        box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
-    }
-
-    & .btnCurriculo:active {
-        background-color: var(--Orange);
-        box-shadow: 0px 8px 8px rgba(255, 112, 41, 0.267);
+        & .btnCurriculo:active {
+            background-color: var(--Orange);
+            box-shadow: 0px 8px 8px rgba(255, 112, 41, 0.267);
+        }
     }
 }
 
@@ -808,7 +853,6 @@
     & h6 {
         box-sizing: border-box;
 
-        /* Auto layout */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -822,7 +866,6 @@
         left: calc(50% - 180px/2);
         top: 65px;
 
-        /* SalesDev./White */
         border: 3px solid var(--White);
         border-radius: 30px;
 
@@ -831,11 +874,9 @@
         font-weight: 600;
         font-size: 20px;
         line-height: 30px;
-        /* identical to box height */
         display: flex;
         align-items: center;
 
-        /* SalesDev./White */
         color: var(--White);
     }
 
@@ -859,90 +900,121 @@
     width: 100%;
     height: 5px;
     /* Altura da "borda" */
-    background: linear-gradient(to right, #090A0D 0%, #066FD5 50%, #090A0D 100%);
+    background: linear-gradient(to right, #12131500 5%, #066FD5 50%, #12131500 95%);
     z-index: 9;
 }
 
-.TittleSkills {
+.ContainerSkillsInformtion {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
+    gap: 34px;
 
     position: absolute;
     width: 858px;
-    height: 165px;
+    height: 386px;
     left: 339px;
-    top: 150px;
+    top: 175px;
 
-    & h1 {
-        width: 710px;
-        height: 90px;
-
-        font-family: var(--font-principal);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 60px;
-        line-height: 90px;
-        align-items: center;
-
-        /* SalesDev./White */
-        color: var(--White);
-
-        & span {
-            font-weight: 500;
-        }
-    }
-
-    & h2 {
-        position: absolute;
-        top: 45px;
-
-        width: 840px;
-        height: 120px;
-
-        font-family: var(--font-principal);
-        font-style: normal;
-        font-weight: 500;
-        font-size: 80px;
-        line-height: 120px;
+    & .TittleSkills {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 9px;
 
-        /* SalesDev./White */
-        color: var(--White);
+        width: 858px;
+        height: 107px;
 
-        & span {
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+
+        & h1 {
+            width: 700px;
+            height: 42px;
+
+            font-family: var(--font-principal);
+            font-style: normal;
             font-weight: 700;
+            font-size: 60px;
+            line-height: 90px;
+
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+
+            color: var(--White);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 500;
+            }
+        }
+
+        & h2 {
+            width: 837px;
+            height: 56px;
+
+            font-family: var(--font-principal);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 120px;
+
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+
+            color: var(--White);
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 700;
+            }
         }
     }
-}
 
-.InformationSkills {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 35px;
+    & .InformationSkills {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 35px;
 
-    position: absolute;
-    width: 741px;
-    height: 245px;
-    left: 339px;
-    top: 300px;
-
-    & p {
         width: 741px;
-        height: auto;
+        height: 245px;
 
-        font-family: var(--font-principal);
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 30px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
 
-        /* SalesDev./Gray */
-        color: var(--Gray);
+        & p {
+            width: 741px;
+            height: auto;
+
+            font-family: var(--font-principal);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+
+            color: var(--Gray);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
     }
 }
 
@@ -1068,7 +1140,7 @@
     width: 100%;
     height: 5px;
     /* Altura da "borda" */
-    background: linear-gradient(to right, #090A0D 0%, #066FD5 50%, #090A0D 100%);
+    background: linear-gradient(to right, #12131500 5%, #066FD5 50%, #12131500 95%);
     z-index: 9;
 }
 
@@ -1077,26 +1149,35 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    gap: 9px;
 
     position: absolute;
-    width: 550px;
-    height: 165px;
-    left: calc(50% - 550px/2);
-    top: 150px;
+    width: 540px;
+    height: 107px;
+    left: calc(50% - 540px/2);
+    top: 175px;
 
     & h1 {
-        width: 545px;
-        height: 90px;
+        width: 535px;
+        height: 42px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 700;
         font-size: 60px;
         line-height: 90px;
+
+        leading-trim: both;
+        text-edge: cap;
+        display: flex;
         align-items: center;
 
-        /* SalesDev./White */
         color: var(--White);
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
 
         & span {
             font-weight: 600;
@@ -1104,23 +1185,26 @@
     }
 
     & h2 {
-        top: 45px;
-        position: absolute;
         width: 336px;
-        height: 120px;
+        height: 56px;
 
         font-family: var(--font-principal);
         font-style: normal;
         font-weight: 700;
         font-size: 80px;
         line-height: 120px;
-        /* identical to box height */
+
+        leading-trim: both;
+        text-edge: cap;
         display: flex;
         align-items: center;
         text-align: center;
 
-        /* SalesDev./Blue */
         color: var(--Blue);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
     }
 }
 
@@ -1136,7 +1220,7 @@
     width: 800px;
     height: 253px;
     left: calc(50% - 800px/2);
-    top: 328px;
+    top: 320px;
 
     & h1 {
         width: 787px;
@@ -1154,18 +1238,17 @@
     }
 
     & h2 {
-        width: 800px;
+        width: 820px;
         height: auto;
 
         font-family: var(--font-principal);
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
         line-height: 30px;
         text-align: center;
 
-        /* SalesDev./Gray */
-        color: var(--Orange);
+        color: var(--Gray);
     }
 }
 

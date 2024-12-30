@@ -9,38 +9,36 @@
     }
 
     .MyName {
+        gap: 8px;
+
         width: 326px;
-        height: 155px;
+        height: 142px;
         left: calc(50% - 326px/2);
-        top: 230px;
+        top: 257px;
 
         & h1 {
-            top: 0;
             width: 326px;
-            height: 60px;
+            height: 28px;
 
             font-size: 40px;
             line-height: 60px;
         }
 
         & h2 {
-            top: 50px;
             width: 326px;
-            height: 110px;
+            height: 103px;
 
             font-size: 68px;
             line-height: 55px;
-
             display: block;
         }
     }
 
     .OqSou {
-        position: absolute;
         width: 360px;
         height: 90px;
         left: calc(50% - 360px/2);
-        top: 400px;
+        top: 405px;
 
         & h1 {
             font-size: 20px;
@@ -67,8 +65,7 @@
         width: 70px;
         height: 70px;
         left: calc(50% - 70px/2);
-        /* Metade do tamanho */
-        top: 620px;
+        top: 623px;
     }
 
     @keyframes ScrollAnimation {
@@ -94,24 +91,26 @@
     }
 
     .MyName {
-        width: 580px;
-        height: 150px;
-        left: calc(50% - 580px/2);
-        top: 250px;
+        gap: 8px;
+
+        width: 555px;
+        height: 101px;
+        left: calc(50% - 555px/2);
+        top: 281px;
 
         & h1 {
-            top: 0;
             width: 512px;
-            height: 96px;
+            height: 45px;
 
             font-size: 64px;
             line-height: 96px;
         }
 
         & h2 {
-            top: 50px;
-            width: 560px;
-            height: 102px;
+            text-align: center;
+            align-items: center;
+            width: 557px;
+            height: 48px;
 
             font-size: 68px;
             line-height: 102px;
@@ -177,24 +176,24 @@
     }
 
     .MyName {
+        gap: 9px;
+
         width: 982px;
-        height: 235px;
+        height: 170px;
         left: calc(50% - 982px/2);
-        top: 250px;
+        top: 300px;
 
         & h1 {
-            top: 0;
-            width: 896px;
-            height: 162px;
+            width: 864px;
+            height: 76px;
 
             font-size: 108px;
             line-height: 162px;
         }
 
         & h2 {
-            top: 108px;
             width: 982px;
-            height: 126px;
+            height: 85px;
 
             font-size: 120px;
             line-height: 180px;
@@ -295,47 +294,42 @@
     }
 
     .BoasVindas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
+        gap: 8px;
 
-        position: absolute;
-        width: 346px;
-        height: 205px;
-        left: calc(50% - 346px/2);
-        top: 120px;
+        width: 360px;
+        height: 187px;
+        left: calc(50% - 360px/2);
+        top: 155px;
 
         & h1 {
             width: 299px;
-            height: 54px;
+            height: 25px;
 
             font-size: 36px;
             line-height: 54px;
 
-            & span {
-                font-weight: 500;
-            }
+            flex: none;
+            order: 0;
+            flex-grow: 0;
         }
 
         & h2 {
-            top: 30px;
             width: 346px;
-            height: 72px;
+            height: 34px;
 
             font-size: 48px;
             line-height: 72px;
 
-            & span {
-                font-weight: 700;
-            }
+            flex: none;
+            order: 1;
+            flex-grow: 0;
         }
 
-        & h3 {
-            top: 110px;
-            left: calc(50% - 346px/2);
-            width: 346px;
-            height: auto;
+        & .Description {
+            width: 360px;
+            height: 96px;
+            left: calc(50% - 360px/2);
+            top: 90px;
 
             font-size: 16px;
             line-height: 24px;
@@ -487,40 +481,42 @@
     }
 
     .BoasVindas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
+        gap: 8px;
 
-        position: absolute;
-        width: 761px;
-        height: 220px;
-        left: calc(50% - 761px/2);
-        top: 138px;
+        width: 591px;
+        height: 225px;
+        left: calc(50% - 591px/2);
+        top: 165px;
 
         & h1 {
+            width: 499px;
+            height: 42px;
+
             font-size: 60px;
             line-height: 90px;
 
-            & span {
-                font-weight: 500;
-            }
+            flex: none;
+            order: 0;
+            flex-grow: 0;
         }
 
         & h2 {
-            font-size: 80px;
-            line-height: 100px;
+            width: 576px;
+            height: 56px;
 
-            & span {
-                font-weight: 700;
-            }
+            font-size: 80px;
+            line-height: 120px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
         }
 
-        & h3 {
-            top: 150px;
+        & .Description {
             width: 580px;
             height: 90px;
             left: calc(50% - 580px/2);
+            top: 140px;
 
             font-size: 20px;
             line-height: 30px;
@@ -537,7 +533,7 @@
         width: 580px;
         height: 1750px;
         left: calc(50% - 580px/2);
-        top: 414px;
+        top: 420px;
     }
 
     .MyService,
@@ -665,37 +661,42 @@
     }
 
     .BoasVindas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
+        gap: 8px;
 
-        position: absolute;
-        width: 761px;
-        height: 220px;
-        left: calc(50% - 761px/2);
-        top: 138px;
+        width: 764px;
+        height: 202px;
+        left: calc(50% - 764px/2);
+        top: 150px;
 
         & h1 {
+            width: 499px;
+            height: 42px;
+
             font-size: 60px;
             line-height: 90px;
 
-            & span {
-                font-weight: 500;
-            }
+            flex: none;
+            order: 0;
+            flex-grow: 0;
         }
 
         & h2 {
-            font-size: 80px;
-            line-height: 100px;
+            width: 576px;
+            height: 56px;
 
-            & span {
-                font-weight: 700;
-            }
+            font-size: 80px;
+            line-height: 120px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
         }
 
-        & h3 {
-            top: 150px;
+        & .Description {
+            width: 764px;
+            height: 60px;
+            left: calc(50% - 764px/2);
+            top: 145px;
 
             font-size: 20px;
             line-height: 30px;
@@ -837,85 +838,130 @@
         height: 3px;
     }
 
-    .SaibaMaisSobre {
-        width: 355px;
-        height: 135px;
-        left: calc(50% - 355px/2);
-        top: 124px;
+    .ContainerSobreInformtion {
+        gap: 445px;
 
-        & h1 {
-            width: 355px;
-            height: 54px;
-
-            font-size: 36px;
-            line-height: 54px;
-
-            text-align: center;
-        }
-
-        & h2 {
-            top: 37px;
-            left: calc(50% - 314px/2);
-
-            width: 314px;
-            height: 96px;
-
-            font-size: 60px;
-            line-height: 50px;
-
-            align-items: center;
-            text-align: center;
-
-            display: block;
-        }
-    }
-
-    .InformationforMe {
-        gap: 25px;
-
+        position: absolute;
         width: 360px;
-        height: 579.85px;
+        height: 1140.85px;
         left: calc(50% - 360px/2);
-        top: 706px;
+        top: 145px;
 
-        & .SobreMim {
-            gap: 20px;
+        & .SaibaMaisSobre {
+            gap: 8px;
 
             width: 360px;
-            height: 505px;
+            height: 118px;
+            align-items: center;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
 
             & h1 {
                 width: 360px;
-                height: 210px;
+                height: 25px;
 
-                font-size: 20px;
-                line-height: 30px;
+                font-size: 36px;
+                line-height: 54px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
             }
 
-            & p {
-                gap: 35px;
+            & h2 {
+                width: 266px;
+                height: 85px;
 
-                width: 360px;
-                height: 275px;
+                font-size: 60px;
+                line-height: 43px;
+                display: block;
+                text-align: center;
+                align-items: center;
 
-                font-size: 16px;
-                line-height: 24px;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
             }
         }
 
-        & .btnCurriculo {
-            padding: 12px 2px;
-            gap: 8px;
+        & .InformationforMe {
+            gap: 20px;
 
-            width: 280px;
-            height: 44.27px;
+            width: 360px;
+            height: 579.85px;
 
-            font-size: 16px;
-            line-height: 15px;
+            & .SobreMim {
+                gap: 20px;
 
-            & .VectorBtn {
-                width: 22.91px;
-                height: 22.91px;
+                width: 360px;
+                height: 505px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                & h1 {
+                    width: 360px;
+                    height: 210px;
+
+                    font-size: 20px;
+                    line-height: 30px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+
+                & p {
+                    width: 350px;
+
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+
+                }
+            }
+
+            & .btnCurriculo {
+                padding: 10px 20px;
+                gap: 10px;
+
+                width: 240px;
+                height: 45px;
+
+                border-radius: 25px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                font-size: 12px;
+                line-height: 15px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                & .VectorBtn {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+
+            & .btnCurriculo:hover {
+                transform: scale(1.05);
+                /* Aumenta levemente o container */
+                box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
+            }
+
+            & .btnCurriculo:active {
+                background-color: var(--Orange);
+                box-shadow: 0px 8px 8px rgba(255, 112, 41, 0.267);
             }
         }
     }
@@ -951,10 +997,10 @@
         }
 
         & img {
-            width: 400px;
-            height: 468.67px;
-            left: calc(50% - 400px/2);
-            top: 730px;
+            width: 393.32px;
+            height: 460.85px;
+            left: calc(50% - 393.32px/2);
+            top: 754px;
         }
     }
 
@@ -962,77 +1008,121 @@
         height: 4px;
     }
 
-    .SaibaMaisSobre {
+    .ContainerSobreInformtion {
+        gap: 20px;
+
         width: 544.75px;
-        height: 120px;
+        height: 553.62px;
         left: calc(50% - 544.75px/2);
-        top: 125px;
+        top: 165px;
 
-        & h1 {
-            width: 508px;
-            height: 90px;
+        & .SaibaMaisSobre {
+            gap: 9px;
 
-            font-size: 52px;
-            line-height: 78px;
-        }
-
-        & h2 {
             width: 554px;
-            height: 100px;
-
-            top: 40px;
-
-            font-size: 72px;
-            line-height: 108px;
-        }
-    }
-
-    .InformationforMe {
-        gap: 10px;
-
-        width: 530.98px;
-        height: 405px;
-        left: calc(50% - 530.98px/2);
-        top: 265px;
-
-        & .SobreMim {
-            gap: 10px;
-
-            width: 540px;
-            height: 350px;
+            height: 97px;
 
             & h1 {
-                width: 500px;
-                height: 150px;
+                width: 510px;
+                height: 37px;
 
-                font-size: 20px;
-                line-height: 30px;
+                font-size: 52px;
+                line-height: 78px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
             }
 
-            & p {
-                gap: 25px;
+            & h2 {
+                width: 554px;
+                height: 51px;
 
-                width: 500px;
-                height: 230px;
+                font-size: 72px;
+                line-height: 108px;
 
-                font-size: 16px;
-                line-height: 24px;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
             }
         }
 
-        & .btnCurriculo {
-            padding: 12px 2px;
-            gap: 8px;
+        & .InformationforMe {
+            gap: 5px;
 
-            width: 280px;
-            height: 44.27px;
+            width: 540px;
+            height: 441.27px;
 
-            font-size: 16px;
-            line-height: 15px;
+            & .SobreMim {
+                gap: 10px;
 
-            & .VectorBtn {
-                width: 22.91px;
-                height: 22.91px;
+                width: 540px;
+                height: 377px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                & h1 {
+                    width: 500px;
+                    height: 150px;
+
+                    font-size: 20px;
+                    line-height: 30px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+
+                & p {
+                    width: 409px;
+
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+            }
+
+            & .btnCurriculo {
+                padding: 10px 20px;
+                gap: 8px;
+
+                width: 220px;
+                height: 45px;
+
+                border-radius: 25px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                font-size: 12px;
+                line-height: 15px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                & .VectorBtn {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+
+            & .btnCurriculo:hover {
+                transform: scale(1.05);
+                /* Aumenta levemente o container */
+                box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
+            }
+
+            & .btnCurriculo:active {
+                background-color: var(--Orange);
+                box-shadow: 0px 8px 8px rgba(255, 112, 41, 0.267);
             }
         }
     }
@@ -1070,8 +1160,8 @@
         & img {
             width: 400px;
             height: 468.67px;
-            left: 800px;
-            top: 160px;
+            left: 885px;
+            top: calc(50% - 468.67px/2);
         }
     }
 
@@ -1079,79 +1169,121 @@
         height: 4px;
     }
 
-    .SaibaMaisSobre {
-        padding: 0px;
+    .ContainerSobreInformtion {
+        gap: 15px;
 
         width: 554px;
-        height: 130px;
-        left: 150px;
-        top: 123px;
+        height: 553.27px;
+        left: 152px;
+        top: 144px;
 
-        & h1 {
-            width: 508px;
-            height: 90px;
+        & .SaibaMaisSobre {
+            gap: 9px;
 
-            font-size: 52px;
-            line-height: 78px;
-        }
-
-        & h2 {
             width: 554px;
-            height: 100px;
-
-            top: 40px;
-
-            font-size: 72px;
-            line-height: 108px;
-        }
-    }
-
-    .InformationforMe {
-        gap: 5px;
-
-        width: 540px;
-        height: 410px;
-        left: 150px;
-        top: 255px;
-
-        & .SobreMim {
-            gap: 10px;
-
-            width: 540px;
-            height: 350px;
+            height: 97px;
 
             & h1 {
-                width: 500px;
-                height: 150px;
+                width: 510px;
+                height: 37px;
 
-                font-size: 20px;
-                line-height: 30px;
+                font-size: 52px;
+                line-height: 78px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
             }
 
-            & p {
-                gap: 25px;
+            & h2 {
+                width: 554px;
+                height: 51px;
 
-                width: 500px;
-                height: 230px;
+                font-size: 72px;
+                line-height: 108px;
 
-                font-size: 16px;
-                line-height: 24px;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
             }
         }
 
-        & .btnCurriculo {
-            padding: 12px 2px;
-            gap: 8px;
+        & .InformationforMe {
+            gap: 5px;
 
-            width: 280px;
-            height: 44.27px;
+            width: 540px;
+            height: 441.27px;
 
-            font-size: 16px;
-            line-height: 15px;
+            & .SobreMim {
+                gap: 10px;
 
-            & .VectorBtn {
-                width: 22.91px;
-                height: 22.91px;
+                width: 540px;
+                height: 377px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                & h1 {
+                    width: 500px;
+                    height: 150px;
+
+                    font-size: 20px;
+                    line-height: 30px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+
+                & p {
+                    width: 409px;
+
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+            }
+
+            & .btnCurriculo {
+                padding: 10px 20px;
+                gap: 8px;
+
+                width: 220px;
+                height: 45px;
+
+                border-radius: 25px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                font-size: 12px;
+                line-height: 15px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                & .VectorBtn {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+
+            & .btnCurriculo:hover {
+                transform: scale(1.05);
+                /* Aumenta levemente o container */
+                box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
+            }
+
+            & .btnCurriculo:active {
+                background-color: var(--Orange);
+                box-shadow: 0px 8px 8px rgba(255, 112, 41, 0.267);
             }
         }
     }
@@ -1162,7 +1294,7 @@
 /* <---- CSS MOBILE ----> */
     {
     .Habilidades {
-        height: 1030px;
+        height: 1006px;
 
         & h6 {
             padding: 8px 30px;
@@ -1192,52 +1324,54 @@
         height: 3px;
     }
 
-    .TittleSkills {
-        align-items: center;
-        text-align: center;
-        width: 340px;
-        height: 126px;
-        left: calc(50% - 340px/2);
+    .ContainerSkillsInformtion {
+        gap: 20px;
+
+        width: 335px;
+        height: 403px;
+        left: 35px;
         top: 124px;
 
-        & h1 {
-            width: 333px;
-            height: 42px;
-
-            font-size: 28px;
-            line-height: 42px;
-
-            align-items: center;
-            text-align: center;
-        }
-
-        & h2 {
-            top: 40px;
-            left: 0;
+        & .TittleSkills {
+            gap: 8px;
 
             width: 334px;
-            height: 88px;
+            height: 108px;
 
-            font-size: 52px;
-            line-height: 44px;
+            & h1 {
+                width: 330px;
+                height: 20px;
 
-            display: block;
-            text-align: center;
-            align-items: center;
+                font-size: 28px;
+                line-height: 42px;
+            }
+
+            & h2 {
+                width: 334px;
+                height: 80px;
+
+                font-size: 52px;
+                line-height: 44px;
+                word-spacing: -10px;
+
+                display: block;
+                text-align: left;
+                align-items: center;
+            }
         }
-    }
 
-    .InformationSkills {
-        width: 328px;
-        height: 275px;
-        left: calc(50% - 328px/2);
-        top: 273px;
+        & .InformationSkills {
+            gap: 35px;
 
-        & p {
-            width: 328px;
+            width: 334px;
+            height: 275px;
 
-            font-size: 16px;
-            line-height: 24px;
+            & p {
+                width: 330px;
+
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
     }
 
@@ -1247,14 +1381,12 @@
         justify-content: center;
         align-items: center;
         align-content: center;
-        padding: 0px;
-
-        gap: 45px 5px;
+        gap: 51px 10px;
 
         width: 360px;
         height: 366.44px;
         left: calc(50% - 360px/2);
-        top: 590px;
+        top: 579px;
 
         & .Html,
         .Css,
@@ -1264,7 +1396,7 @@
         .MySql,
         .Csharp,
         .C {
-            gap: 1.88px;
+            gap: 2px;
 
             height: 76.15px;
 
@@ -1318,45 +1450,62 @@
         height: 4px;
     }
 
-    .TittleSkills {
-        width: 580px;
-        height: 117px;
-        left: calc(50% - 580px/2);
-        top: 125px;
-
-        & h1 {
-            width: 574px;
-            height: 72px;
-
-            font-size: 48px;
-            line-height: 72px;
-            align-items: center;
-        }
-
-        & h2 {
-            top: 45px;
-
-            width: 586px;
-            height: 84px;
-
-            font-size: 56px;
-            line-height: 84px;
-        }
-    }
-
-    .InformationSkills {
-        gap: 35px;
+    .ContainerSkillsInformtion {
+        gap: 15px;
 
         width: 580px;
-        height: 275px;
+        height: 371px;
         left: calc(50% - 580px/2);
-        top: 255px;
+        top: 175px;
 
-        & p {
+        & .TittleSkills {
+            gap: 8px;
+
             width: 580px;
+            height: 81px;
 
-            font-size: 20px;
-            line-height: 30px;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+
+            & h1 {
+                width: 560px;
+                height: 34px;
+
+                font-size: 48px;
+                line-height: 72px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            & h2 {
+                width: 586px;
+                height: 39px;
+
+                font-size: 56px;
+                line-height: 84px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        }
+
+        & .InformationSkills {
+            gap: 35px;
+
+            width: 580px;
+            height: 275px;
+
+            & p {
+                width: 580px;
+
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
     }
 
@@ -1370,7 +1519,7 @@
         width: 580px;
         height: 203.98px;
         left: calc(50% - 580px/2);
-        top: 600px;
+        top: 617px;
 
         & .Html,
         .Css,
@@ -1436,43 +1585,71 @@
         height: 4px;
     }
 
-    .TittleSkills {
+    .ContainerSkillsInformtion {
+        gap: 20px;
+
         width: 754px;
-        height: 140px;
-        left: 120px;
+        height: 362px;
+        left: 152px;
         top: 150px;
 
-        & h1 {
-            width: 620px;
-            height: 78px;
+        & .TittleSkills {
+            gap: 9px;
 
-            font-size: 52px;
-            line-height: 78px;
+            width: 754px;
+            height: 97px;
 
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+
+            & h1 {
+                width: 610px;
+                height: 37px;
+
+                font-size: 52px;
+                line-height: 78px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            & h2 {
+                width: 754px;
+                height: 51px;
+
+                font-size: 72px;
+                line-height: 108px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
         }
 
-        & h2 {
-            position: absolute;
-            top: 40px;
+        & .InformationSkills {
+            gap: 35px;
 
-            width: 840px;
-            height: 108px;
-
-            font-size: 72px;
-            line-height: 108px;
-        }
-    }
-
-    .InformationSkills {
-        left: 120px;
-        top: 290px;
-
-        & p {
             width: 741px;
-            height: auto;
+            height: 245px;
 
-            font-size: 20px;
-            line-height: 30px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            & p {
+                width: 741px;
+                height: 120px;
+
+                font-size: 20px;
+                line-height: 30px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
         }
     }
 
@@ -1523,7 +1700,7 @@
 /* <---- CSS MOBILE ----> */
     {
     .Contatos {
-        height: 790px;
+        height: 781px;
 
         & h6 {
             padding: 8px 30px;
@@ -1554,26 +1731,27 @@
     }
 
     .ContactMe {
-        width: 260px;
-        height: 95px;
-        left: calc(50% - 260px/2);
-        top: 124px;
+        gap: 8px;
+
+        width: 285px;
+        height: 70px;
+        left: calc(50% - 285px/2);
+        top: 145px;
 
         & h1 {
-            width: 255px;
-            height: 42px;
+            width: 285px;
+            height: 23px;
 
-            font-size: 28px;
-            line-height: 42px;
+            font-size: 32px;
+            line-height: 48px;
         }
 
         & h2 {
-            top: 26px;
-            width: 219px;
-            height: 78px;
+            width: 235px;
+            height: 39px;
 
-            font-size: 52px;
-            line-height: 78px;
+            font-size: 56px;
+            line-height: 84px;
         }
     }
 
@@ -1583,7 +1761,7 @@
         width: 360px;
         height: 367px;
         left: calc(50% - 360px/2);
-        top: 245px;
+        top: 240px;
 
         & h1 {
             width: 360px;
@@ -1594,8 +1772,8 @@
         }
 
         & h2 {
-            width: 320px;
-            height: 192px;
+            width: 332px;
+            height: 168px;
 
             font-size: 16px;
             line-height: 24px;
@@ -1636,7 +1814,7 @@
 /* <---- CSS TABLET ----> */
     {
     .Contatos {
-        height: 820px;
+        height: 802px;
 
         & h6 {
             padding: 8px 30px;
@@ -1667,24 +1845,24 @@
     }
 
     .ContactMe {
-        width: 475px;
-        height: 135px;
-        left: calc(50% - 475px/2);
-        top: 125px;
+        gap: 8px;
+
+        width: 455px;
+        height: 96px;
+        left: calc(50% - 455px/2);
+        top: 165px;
 
         & h1 {
-            width: 470px;
-            height: 78px;
+            width: 460px;
+            height: 37px;
 
             font-size: 52px;
             line-height: 78px;
         }
 
         & h2 {
-            top: 40px;
-            position: absolute;
             width: 302px;
-            height: 108px;
+            height: 51px;
 
             font-size: 72px;
             line-height: 108px;
@@ -1702,11 +1880,17 @@
         & h1 {
             width: 550px;
             height: 144px;
+
+            font-size: 24px;
+            line-height: 36px;
         }
 
         & h2 {
             width: 566px;
             height: 150px;
+
+            font-size: 20px;
+            line-height: 30px;
         }
     }
 
@@ -1744,7 +1928,7 @@
 /* <---- CSS NOTEBOOK ----> */
     {
     .Contatos {
-        height: 800px;
+        height: 746px;
 
         & h6 {
             padding: 8px 30px;
@@ -1775,24 +1959,24 @@
     }
 
     .ContactMe {
-        width: 475px;
-        height: 135px;
-        left: calc(50% - 475px/2);
-        top: 130px;
+        gap: 9px;
+
+        width: 455px;
+        height: 97px;
+        left: calc(50% - 455px/2);
+        top: 150px;
 
         & h1 {
-            width: 470px;
-            height: 78px;
+            width: 460px;
+            height: 37px;
 
             font-size: 52px;
             line-height: 78px;
         }
 
         & h2 {
-            top: 40px;
-            position: absolute;
             width: 302px;
-            height: 108px;
+            height: 51px;
 
             font-size: 72px;
             line-height: 108px;
@@ -1804,18 +1988,24 @@
 
         position: absolute;
         width: 660px;
-        height: 295px;
+        height: 283px;
         left: calc(50% - 660px/2);
-        top: 300px;
+        top: 273px;
 
         & h1 {
             width: 660px;
             height: 108px;
+
+            font-size: 24px;
+            line-height: 36px;
         }
 
         & h2 {
-            width: 586px;
+            width: 576px;
             height: 150px;
+
+            font-size: 20px;
+            line-height: 30px;
         }
     }
 
@@ -1825,7 +2015,7 @@
         width: 203.87px;
         height: 84px;
         left: calc(50% - 203.87px/2);
-        top: 640px;
+        top: 596px;
 
         & h1 {
             width: 115px;
