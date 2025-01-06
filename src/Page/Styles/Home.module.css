@@ -931,7 +931,7 @@
         padding: 0px;
         gap: 9px;
 
-        width: 631px;
+        width: 850px;
         height: 107px;
 
         flex: none;
@@ -950,8 +950,6 @@
             font-size: 60px;
             line-height: 90px;
 
-            leading-trim: both;
-            text-edge: cap;
             display: flex;
             align-items: center;
 
