@@ -931,18 +931,15 @@
         padding: 0px;
         gap: 9px;
 
-        width: 858px;
+        width: 631px;
         height: 107px;
 
         flex: none;
         order: 0;
-        align-self: stretch;
         flex-grow: 0;
 
-        background-color: chartreuse;
-
         & h1 {
-            width: 720px;
+            width: 585px;
             height: 42px;
 
             font-family: var(--font-principal);
@@ -956,19 +953,19 @@
             display: flex;
             align-items: center;
 
-            color: var(--White);
+            color: var(--Black);
 
             flex: none;
             order: 0;
             flex-grow: 0;
 
             & span {
-                font-weight: 500;
+                font-weight: 600;
             }
         }
 
         & h2 {
-            width: 880px;
+            width: 616px;
             height: 56px;
 
             font-family: var(--font-principal);
@@ -982,7 +979,7 @@
             display: flex;
             align-items: center;
 
-            color: var(--White);
+            color: var(--Black);
 
             flex: none;
             order: 1;
