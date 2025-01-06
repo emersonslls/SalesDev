@@ -940,6 +940,60 @@
         flex-grow: 0;
 
         background-color: red;
+
+        & h1 {
+            width: 702px;
+            height: 42px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 90px;
+
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+
+            /* SalesDev./White */
+            color: #F0EDE6;
+            background-color: black;
+
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 600;
+            }
+        }
+
+        & h2 {
+            width: 837px;
+            height: 56px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 120px;
+            leading-trim: both;
+            text-edge: cap;
+            display: flex;
+            align-items: center;
+
+            /* SalesDev./White */
+            color: #F0EDE6;
+            background-color: grey;
+
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+        }
     }
 
     & .InformationSkills {
