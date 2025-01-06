@@ -953,11 +953,13 @@
             display: flex;
             align-items: center;
 
-            color: var(--Black);
+            color: var(--White);
 
             flex: none;
             order: 0;
             flex-grow: 0;
+
+            background-color: fuchsia;
 
             & span {
                 font-weight: 600;
@@ -974,16 +976,16 @@
             font-size: 80px;
             line-height: 120px;
 
-            leading-trim: both;
-            text-edge: cap;
             display: flex;
             align-items: center;
 
-            color: var(--Black);
+            color: var(--White);
 
             flex: none;
             order: 1;
             flex-grow: 0;
+
+            background-color: goldenrod;
 
             & span {
                 font-weight: 700;
