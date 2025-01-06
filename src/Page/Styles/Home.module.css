@@ -909,7 +909,7 @@
     z-index: 9;
 }
 
-.ContainerSkillsInformtion {
+.ContainerSkillsInformation {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -924,14 +924,14 @@
 
     background-color: gold;
 
-    & .TittleSkills {
+    & .AlgumasHabilidades {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
         gap: 9px;
 
-        width: 631px;
+        width: 850px;
         height: 107px;
 
         flex: none;
@@ -939,7 +939,7 @@
         flex-grow: 0;
 
         & h1 {
-            width: 585px;
+            width: 700px;
             height: 42px;
 
             font-family: var(--font-principal);
@@ -967,7 +967,7 @@
         }
 
         & h2 {
-            width: 616px;
+            width: 850px;
             height: 56px;
 
             font-family: var(--font-principal);

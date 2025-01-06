@@ -225,12 +225,12 @@ function Home() {
       <section className={`${styles.Habilidades} ${stylesrespomsive.Habilidades}`} id="habilidades">
         <div className={`${styles.Eclipse1} ${stylesrespomsive.Eclipse1}`} />
         <h6>Habilidades</h6>
-        <div className={`${styles.ContainerSkillsInformtion} ${stylesrespomsive.ContainerSkillsInformtion}`} data-aos="fade-right">
-          <div className={`${styles.TittleSkills} ${stylesrespomsive.TittleSkills}`} data-aos="fade-right">
-          <h1>Saiba mais<span>&nbsp;sobre o</span></h1>
-          <h2>Emerson <span className={styles.Azul}>&nbsp;Sales</span><span className={styles.Laranja}>.</span></h2>
+        <div className={`${styles.ContainerSkillsInformation} ${stylesrespomsive.ContainerSkillsInformation}`} data-aos="fade-right">
+          <div className={`${styles.AlgumasHabilidades} ${stylesrespomsive.AlgumasHabilidades}`}>
+            <h1>Conheça<span>&nbsp;algumas das</span></h1>
+            <h2>minhas<span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
           </div>
-          <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`} data-aos="fade-right">
+          <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`}>
             <p>
               Tenho habilidades em várias tecnologias de desenvolvimento web, incluindo HTML5, CSS3 e JavaScript, além de frameworks como React.js, React Native e Node.js. Também possuo conhecimento na plataforma Figma.
             </p>
@@ -239,7 +239,6 @@ function Home() {
             </p>
           </div>
         </div>
-
         <div className={`${styles.Skills} ${stylesrespomsive.Skills}`}>
           <div className={`${styles.Html} ${stylesrespomsive.Html}`}>
             <img src={IconHtml} />
