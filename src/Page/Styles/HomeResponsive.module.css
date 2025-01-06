@@ -1678,7 +1678,6 @@
     }
 
     .ContactMe {
-        display: grid;
         gap: 8px;
 
         position: absolute;
@@ -1794,7 +1793,6 @@
     }
 
     .ContactMe {
-        display: grid;
         gap: 8px;
 
         width: 470px;
@@ -1909,7 +1907,6 @@
     }
 
     .ContactMe {
-        display: grid;
         gap: 9px;
 
         width: 470px;
