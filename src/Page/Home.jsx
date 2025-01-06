@@ -293,7 +293,7 @@ function Home() {
         <div className={`${styles.Eclipse1} ${stylesrespomsive.Eclipse1}`} />
         <h6>Contatos</h6>
         <div className={`${styles.ContactMe} ${stylesrespomsive.ContactMe}`} data-aos="fade-right">
-          <h1>Entre <span>&nbsp;em contato</span></h1>
+          <h1>Entre<span>&nbsp;em contato</span></h1>
           <h2>comigo<span className={styles.Laranja}>.</span></h2>
         </div>
         <div className={`${styles.SobreContato} ${stylesrespomsive.SobreContato}`} data-aos="fade-up">

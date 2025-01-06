@@ -1680,13 +1680,14 @@
     .ContactMe {
         gap: 8px;
 
-        width: 285px;
+        position: absolute;
+        width: 300px;
         height: 70px;
-        left: calc(50% - 285px/2);
+        left: calc(50% - 300px/2);
         top: 145px;
 
         & h1 {
-            width: 285px;
+            width: 290px;
             height: 23px;
 
             font-size: 32px;
@@ -1794,10 +1795,10 @@
     .ContactMe {
         gap: 8px;
 
-        width: 455px;
-        height: 96px;
-        left: calc(50% - 455px/2);
-        top: 165px;
+        width: 470px;
+        height: 97px;
+        left: calc(50% - 470px/2);
+        top: 150px;
 
         & h1 {
             width: 460px;
@@ -1908,9 +1909,9 @@
     .ContactMe {
         gap: 9px;
 
-        width: 455px;
+        width: 470px;
         height: 97px;
-        left: calc(50% - 455px/2);
+        left: calc(50% - 470px/2);
         top: 150px;
 
         & h1 {

@@ -944,7 +944,7 @@
         flex-grow: 0;
 
         & span {
-            font-weight: 600;
+            font-weight: 500;
         }
     }
 
@@ -1177,7 +1177,7 @@
         flex-grow: 0;
 
         & span {
-            font-weight: 600;
+            font-weight: 500;
         }
     }
 
