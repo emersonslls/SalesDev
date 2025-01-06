@@ -922,8 +922,6 @@
     left: 339px;
     top: 165px;
 
-    background-color: rgb(201, 21, 123);
-
     & h1 {
         width: 700px;
         height: 42px;
@@ -944,8 +942,6 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-
-        background-color: firebrick;
 
         & span {
             font-weight: 600;
@@ -972,8 +968,6 @@
         flex: none;
         order: 1;
         flex-grow: 0;
-
-        background-color: rgb(127, 189, 12);
 
         & span {
             font-weight: 700;
