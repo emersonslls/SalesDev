@@ -1684,7 +1684,7 @@
         width: 300px;
         height: 70px;
         left: calc(50% - 300px/2);
-        top: 145px;
+        top: 130px;
 
         & h1 {
             width: 290px;
@@ -1798,7 +1798,7 @@
         width: 470px;
         height: 97px;
         left: calc(50% - 470px/2);
-        top: 150px;
+        top: 120px;
 
         & h1 {
             width: 460px;
@@ -1912,7 +1912,7 @@
         width: 470px;
         height: 97px;
         left: calc(50% - 470px/2);
-        top: 150px;
+        top: 120px;
 
         & h1 {
             width: 460px;
