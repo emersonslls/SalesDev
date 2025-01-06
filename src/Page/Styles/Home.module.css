@@ -909,8 +909,55 @@
     z-index: 9;
 }
 
-.ContainerSkillsInformtion{
-    
+.ContainerSkillsInformtion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 34px;
+
+    position: absolute;
+    width: 858px;
+    height: 386px;
+    left: 339px;
+    top: 165px;
+
+    background-color: gold;
+
+    & .TittleSkills {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 9px;
+
+        width: 858px;
+        height: 107px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+
+        background-color: red;
+    }
+
+    & .InformationSkills {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 35px;
+
+        width: 741px;
+        height: 245px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        background-color: chartreuse;
+    }
 }
 
 .Skills {
