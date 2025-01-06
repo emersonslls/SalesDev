@@ -225,19 +225,17 @@ function Home() {
       <section className={`${styles.Habilidades} ${stylesrespomsive.Habilidades}`} id="habilidades">
         <div className={`${styles.Eclipse1} ${stylesrespomsive.Eclipse1}`} />
         <h6>Habilidades</h6>
-        <div className={`${styles.ContainerSkillsInformation} ${stylesrespomsive.ContainerSkillsInformation}`} data-aos="fade-right">
-          <div className={`${styles.AlgumasHabilidades} ${stylesrespomsive.AlgumasHabilidades}`}>
-            <h1>Conheça<span>&nbsp;algumas das</span></h1>
-            <h2>minhas<span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
-          </div>
-          <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`}>
-            <p>
-              Tenho habilidades em várias tecnologias de desenvolvimento web, incluindo HTML5, CSS3 e JavaScript, além de frameworks como React.js, React Native e Node.js. Também possuo conhecimento na plataforma Figma.
-            </p>
-            <p>
-              Sou apaixonado pelo mundo do front-end e, embora não tenha experiência em back-end, conheço o básico de MySQL, Linguagem C, C# e APIs.
-            </p>
-          </div>
+        <div className={`${styles.AlgumasHabilidades} ${stylesrespomsive.AlgumasHabilidades}`} data-aos="fade-right">
+          <h1>Conheça<span>&nbsp;algumas das</span></h1>
+          <h2>minhas<span className={styles.Azul}>&nbsp;habilidades</span><span className={styles.Laranja}>.</span></h2>
+        </div>
+        <div className={`${styles.InformationSkills} ${stylesrespomsive.InformationSkills}`} data-aos="fade-right">
+          <p>
+            Tenho habilidades em várias tecnologias de desenvolvimento web, incluindo HTML5, CSS3 e JavaScript, além de frameworks como React.js, React Native e Node.js. Também possuo conhecimento na plataforma Figma.
+          </p>
+          <p>
+            Sou apaixonado pelo mundo do front-end e, embora não tenha experiência em back-end, conheço o básico de MySQL, Linguagem C, C# e APIs.
+          </p>
         </div>
         <div className={`${styles.Skills} ${stylesrespomsive.Skills}`}>
           <div className={`${styles.Html} ${stylesrespomsive.Html}`}>

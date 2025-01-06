@@ -909,124 +909,108 @@
     z-index: 9;
 }
 
-.ContainerSkillsInformation {
+.AlgumasHabilidades {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 34px;
+    gap: 9px;
 
     position: absolute;
     width: 858px;
-    height: 386px;
+    height: 107px;
     left: 339px;
     top: 165px;
 
-    background-color: gold;
+    background-color: rgb(201, 21, 123);
 
-    & .AlgumasHabilidades {
+    & h1 {
+        width: 700px;
+        height: 42px;
+
+        font-family: var(--font-principal);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 90px;
+
+        leading-trim: both;
+        text-edge: cap;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 9px;
+        align-items: center;
 
-        width: 850px;
-        height: 107px;
+        color: var(--White);
 
         flex: none;
         order: 0;
         flex-grow: 0;
 
-        & h1 {
-            width: 700px;
-            height: 42px;
+        background-color: firebrick;
 
-            font-family: var(--font-principal);
-            font-style: normal;
-            font-weight: 700;
-            font-size: 60px;
-            line-height: 90px;
-
-            leading-trim: both;
-            text-edge: cap;
-            align-items: center;
-
-            color: var(--White);
-
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-
-            background-color: firebrick;
-
-            & span {
-                font-weight: 600;
-            }
-        }
-
-        & h2 {
-            width: 850px;
-            height: 56px;
-
-            font-family: var(--font-principal);
-            font-style: normal;
-            font-weight: 500;
-            font-size: 80px;
-            line-height: 120px;
-
-            leading-trim: both;
-            text-edge: cap;
-            align-items: center;
-
-            color: var(--White);
-
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-
-            background-color: rgb(127, 189, 12);
-
-            & span {
-                font-weight: 700;
-            }
+        & span {
+            font-weight: 600;
         }
     }
 
-    & .InformationSkills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 35px;
+    & h2 {
+        width: 850px;
+        height: 56px;
 
-        width: 752px;
-        height: auto;
+        font-family: var(--font-principal);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 120px;
+
+        leading-trim: both;
+        text-edge: cap;
+        display: flex;
+        align-items: center;
+
+        color: var(--White);
 
         flex: none;
         order: 1;
-        align-self: stretch;
         flex-grow: 0;
 
-        background-color: chartreuse;
+        background-color: rgb(127, 189, 12);
 
-        & p {
-            width: 620px;
-            height: auto;
-
-            font-family: var(--font-principal);
-            font-style: normal;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 30px;
-
-            color: var(--Gray);
-
-            flex: none;
-            order: 0;
-            flex-grow: 0;
+        & span {
+            font-weight: 700;
         }
+    }
+}
+
+& .InformationSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+
+    position: absolute;
+    width: 741px;
+    height: 245px;
+    left: 339px;
+    top: 306px;
+
+    background-color: chartreuse;
+
+    & p {
+        width: 620px;
+        height: auto;
+
+        font-family: var(--font-principal);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: var(--Gray);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
     }
 }
 
