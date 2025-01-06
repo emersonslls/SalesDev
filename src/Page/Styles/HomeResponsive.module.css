@@ -1907,7 +1907,7 @@
     }
 
     .ContactMe {
-        gap: 9px;
+        gap: -9px;
 
         width: 470px;
         height: 97px;
