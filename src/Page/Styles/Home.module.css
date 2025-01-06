@@ -953,7 +953,7 @@
     }
 
     & h2 {
-        width: 850px;
+        width: 837px;
         height: 56px;
 
         font-family: var(--font-principal);
@@ -993,8 +993,6 @@
     height: 245px;
     left: 339px;
     top: 306px;
-
-    background-color: chartreuse;
 
     & p {
         width: 620px;
