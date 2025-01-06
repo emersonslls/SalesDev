@@ -1324,54 +1324,51 @@
         height: 3px;
     }
 
-    .ContainerSkillsInformtion {
-        gap: 20px;
+    .AlgumasHabilidades {
+        gap: 8px;
 
-        width: 335px;
-        height: 403px;
+        width: 334px;
+        height: 108px;
         left: 35px;
         top: 124px;
 
-        & .TittleSkills {
-            gap: 8px;
+        & h1 {
+            width: 325px;
+            height: 20px;
 
-            width: 334px;
-            height: 108px;
-
-            & h1 {
-                width: 330px;
-                height: 20px;
-
-                font-size: 28px;
-                line-height: 42px;
-            }
-
-            & h2 {
-                width: 334px;
-                height: 80px;
-
-                font-size: 52px;
-                line-height: 44px;
-                word-spacing: -10px;
-
-                display: block;
-                text-align: left;
-                align-items: center;
-            }
+            font-size: 28px;
+            line-height: 42px;
         }
 
-        & .InformationSkills {
-            gap: 35px;
+        & h2 {
+            width: 335px;
+            height: 80px;
 
-            width: 334px;
-            height: 275px;
+            font-size: 52px;
+            line-height: 44px;
+            word-spacing: -10px;
 
-            & p {
-                width: 330px;
+            flex-wrap: wrap;
+            text-align: left;
 
-                font-size: 16px;
-                line-height: 24px;
-            }
+            white-space: normal;
+            overflow-wrap: break-word;
+        }
+    }
+
+    & .InformationSkills {
+        gap: 25px;
+
+        width: 334px;
+        height: 275px;
+        left: 36px;
+        top: 252px;
+
+        & p {
+            width: 328px;
+
+            font-size: 16px;
+            line-height: 24px;
         }
     }
 
@@ -1420,7 +1417,7 @@
 /* <---- CSS TABLET ----> */
     {
     .Habilidades {
-        height: 925px;
+        height: 900px;
 
         & h6 {
             padding: 8px 30px;
@@ -1450,62 +1447,41 @@
         height: 4px;
     }
 
-    .ContainerSkillsInformtion {
-        gap: 15px;
+    .AlgumasHabilidades {
+        gap: 8px;
 
-        width: 580px;
-        height: 371px;
-        left: calc(50% - 580px/2);
+        width: 590px;
+        height: 81px;
+        left: calc(50% - 590px/2);
         top: 175px;
 
-        & .TittleSkills {
-            gap: 8px;
+        & h1 {
+            width: 560px;
+            height: 34px;
 
-            width: 580px;
-            height: 81px;
-
-            flex: none;
-            order: 0;
-            align-self: stretch;
-            flex-grow: 0;
-
-            & h1 {
-                width: 560px;
-                height: 34px;
-
-                font-size: 48px;
-                line-height: 72px;
-
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-            }
-
-            & h2 {
-                width: 586px;
-                height: 39px;
-
-                font-size: 56px;
-                line-height: 84px;
-
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-            }
+            font-size: 48px;
+            line-height: 72px;
         }
 
-        & .InformationSkills {
-            gap: 35px;
+        & h2 {
+            width: 586px;
+            height: 39px;
 
+            font-size: 56px;
+            line-height: 84px;
+        }
+    }
+
+    & .InformationSkills {
+        gap: 35px;
+
+        width: 580px;
+        height: 275px;
+        left: 125px;
+        top: 271px;
+
+        & p {
             width: 580px;
-            height: 275px;
-
-            & p {
-                width: 580px;
-
-                font-size: 20px;
-                line-height: 30px;
-            }
         }
     }
 
@@ -1551,11 +1527,12 @@
     }
 }
 
+
 @media only screen and (width >=1024px) and (width <=1440px)
 /* <---- CSS NOTEBOOK ----> */
     {
     .Habilidades {
-        height: 840px;
+        height: 822px;
 
         & h6 {
             padding: 8px 30px;
@@ -1585,71 +1562,41 @@
         height: 4px;
     }
 
-    .ContainerSkillsInformtion {
-        gap: 20px;
+    .AlgumasHabilidades {
+        gap: 9px;
 
         width: 754px;
-        height: 362px;
+        height: 97px;
         left: 152px;
         top: 150px;
 
-        & .TittleSkills {
-            gap: 9px;
+        & h1 {
+            width: 610px;
+            height: 37px;
 
-            width: 754px;
-            height: 97px;
-
-            flex: none;
-            order: 0;
-            align-self: stretch;
-            flex-grow: 0;
-
-            & h1 {
-                width: 610px;
-                height: 37px;
-
-                font-size: 52px;
-                line-height: 78px;
-
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-            }
-
-            & h2 {
-                width: 754px;
-                height: 51px;
-
-                font-size: 72px;
-                line-height: 108px;
-
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-            }
+            font-size: 52px;
+            line-height: 78px;
         }
 
-        & .InformationSkills {
-            gap: 35px;
+        & h2 {
+            width: 754px;
+            height: 51px;
 
+            font-size: 72px;
+            line-height: 108px;
+        }
+    }
+
+    & .InformationSkills {
+        gap: 30px;
+
+        width: 741px;
+        height: 245px;
+        left: 152px;
+        top: 267px;
+
+        & p {
             width: 741px;
-            height: 245px;
-
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-
-            & p {
-                width: 741px;
-                height: 120px;
-
-                font-size: 20px;
-                line-height: 30px;
-
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-            }
         }
     }
 
@@ -1663,7 +1610,7 @@
         width: 777px;
         height: 203.98px;
         left: calc(50% - 777px/2);
-        top: 580px;
+        top: 558px;
 
         & .Html,
         .Css,

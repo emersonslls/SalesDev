@@ -983,13 +983,13 @@
     gap: 35px;
 
     position: absolute;
-    width: 741px;
+    width: 750px;
     height: 245px;
     left: 339px;
     top: 306px;
 
     & p {
-        width: 620px;
+        width: 710px;
         height: auto;
 
         font-family: var(--font-principal);
