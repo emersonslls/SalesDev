@@ -950,7 +950,7 @@
 
             leading-trim: both;
             text-edge: cap;
-            display: flex;
+            display: block;
             align-items: center;
 
             color: var(--White);
@@ -978,7 +978,7 @@
 
             leading-trim: both;
             text-edge: cap;
-            display: flex;
+            display: block;
             align-items: center;
 
             color: var(--White);
