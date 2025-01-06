@@ -953,7 +953,7 @@
             display: flex;
             align-items: center;
 
-            color: var(--Black);
+            color: var(--White);
 
             flex: none;
             order: 0;
@@ -981,7 +981,7 @@
             display: flex;
             align-items: center;
 
-            color: var(--Black);
+            color: var(--White);
 
             flex: none;
             order: 1;
@@ -998,18 +998,37 @@
     & .InformationSkills {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
         padding: 0px;
         gap: 35px;
 
-        width: 741px;
-        height: 245px;
+        width: 752px;
+        height: auto;
 
         flex: none;
         order: 1;
+        align-self: stretch;
         flex-grow: 0;
 
         background-color: chartreuse;
+
+        & p {
+            width: 620px;
+            height: auto;
+
+            font-family: var(--font-principal);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+
+            color: var(--Gray);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
     }
 }
 
