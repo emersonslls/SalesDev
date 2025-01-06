@@ -913,15 +913,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0;
     padding: 0px;
-    gap: 30px;
+    gap: 34px;
 
     position: absolute;
     width: 858px;
     height: 386px;
     left: 339px;
-    top: 175px;
+    top: 165px;
 
     background-color: yellow;
 
@@ -939,6 +938,8 @@
         order: 0;
         align-self: stretch;
         flex-grow: 0;
+
+        background-color: chartreuse;
 
         & h1 {
             width: 720px;
