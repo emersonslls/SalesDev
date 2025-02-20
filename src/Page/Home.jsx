@@ -100,7 +100,7 @@ function Home() {
               <h2>Landing page, responsiva.</h2>
             </div>
             <div className={`${styles.Btns} ${stylesrespomsive.Btns}`}>
-              <a href="https://pagemanutencao.vercel.app" target="_blank">
+              <a href="https://app-myservice.vercel.app" target="_blank">
                 <button className={`${styles.BtnAcess} ${stylesrespomsive.BtnAcess}`}>
                   Acesse o site
                 </button>
