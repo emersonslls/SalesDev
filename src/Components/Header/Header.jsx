@@ -47,7 +47,7 @@ function Header() {
                         <img src={LinkedIn} />
                     </a>
                     <a
-                        href="https://www.instagram.com/_sxlles/"
+                        href="https://www.instagram.com/sxlesz_/"
                         target="_blank"
                     >
                         <img src={Instagram} />
