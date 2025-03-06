@@ -1,5 +1,4 @@
-/* <--- FUNCTIONS REACT ---> */
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 /* <--- CSS'S ---> */
 import styles from './Styles/Header.module.css';
@@ -14,24 +13,50 @@ import Instagram from '../../Assets/Icons/Icons Redes - Header/Instagram.svg';
 import Github from '../../Assets/Icons/Icons Redes - Header/GitHub.svg';
 
 function Header() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para o menu
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const menuRef = useRef(null); // Referência para o menu
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen); // Alterna o estado do menu
+        setIsMenuOpen(!isMenuOpen);
     };
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
-            setIsMenuOpen(false); // Fecha o menu quando um item é clicado
+            setIsMenuOpen(false);
         }
     };
 
+    // Fecha o menu ao clicar fora
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
+                setIsMenuOpen(false);
+            }
+        }
+
+        if (isMenuOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isMenuOpen]);
+
     return (
         <header className={styles.header}>
-            <img src={LogoSales} onClick={() => scrollToSection('home')} alt="Logo" className={styles.logo} />
-            <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
+            <img
+                src={LogoSales}
+                onClick={() => scrollToSection('home')}
+                alt="Logo"
+                className={styles.logo}
+            />
+            <nav
+                ref={menuRef}
+                className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}
+            >
                 <ul>
                     <li onClick={() => scrollToSection('home')}>Home</li>
                     <li onClick={() => scrollToSection('projetos')}>Projetos</li>
@@ -62,7 +87,7 @@ function Header() {
             </nav>
             <button className={styles.hamburger} onClick={toggleMenu}>
                 {isMenuOpen ? (
-                    <img src={Close} className={styles.closeIcon} /> // Exibe "X" quando o menu está aberto
+                    <img src={Close} className={styles.closeIcon} />
                 ) : (
                     <img src={Menu} alt="Menu Icon" className={styles.menuIcon} />
                 )}
